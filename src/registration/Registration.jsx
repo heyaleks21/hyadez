@@ -101,7 +101,7 @@ const Registration = () => {
                 Confirm password
               </label>
               <input
-                type="text"
+                type="password"
                 label="Confirm password"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
