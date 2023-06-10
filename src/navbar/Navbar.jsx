@@ -1,16 +1,15 @@
 import { useState } from "react";
 import "./navbar.css";
-
 function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <>
       <nav className="navbar">
-        <a href="/" className="brand_name">
+        <h1 href="/" className="brand_name">
           Hyadez
-        </a>
+        </h1>
         <button
-          className="brand_logo"
+          className="nav_circle"
           onClick={() => {
             setIsNavExpanded(!isNavExpanded);
           }}
@@ -20,7 +19,7 @@ function Navbar() {
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
-            stroke="currentColor"
+            stroke="var(--main-color1)"
             className="w-6 h-6"
           >
             <path
@@ -39,7 +38,13 @@ function Navbar() {
               <a href="/about">About</a>
             </li>
             <li>
+              <a href="/skills">My Skills</a>
+            </li>
+            <li>
               <a href="/contact">Contact</a>
+            </li>
+            <li>
+              <a href="/forum">Forum</a>
             </li>
           </ul>
         </div>

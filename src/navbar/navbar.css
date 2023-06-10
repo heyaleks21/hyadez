@@ -1,19 +1,29 @@
+a:visited {
+  color: var(--main-color2);
+}
+a:hover {
+  color: var(--main-color1);
+}
+.nav_circle:hover {
+  opacity: 50%;
+}
+a {
+  color: var(--main-color2);
+}
 .navbar {
-  height: 60px;
+  height: 70px;
   width: 100%;
   display: flex;
   align-items: center;
-  position: relative;
-  padding: 0.5rem 0rem;
-  background-color: #fff;
-  color: black;
+  justify-content: center;
+  position: fixed;
+  border-radius: 5px;
+  background-color: var(--main-color3);
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 .brand_name {
-  text-decoration: none;
-  color: black;
-  font-size: 1.3rem;
-  margin-left: 1rem;
+  margin-left: 1em;
+  color: var(--main-color2);
 }
 .nav_menu {
   margin-left: auto;
@@ -24,20 +34,19 @@
 }
 .nav_menu li {
   list-style-type: none;
-  margin: 0 1rem;
+  margin: 0 1.7rem;
 }
 .nav_menu li a {
   text-decoration: none;
   display: block;
   width: 100%;
 }
-.brand_logo {
+.nav_circle {
   border: 0;
   height: 40px;
   width: 40px;
-  padding: 0.5rem;
+  padding: 0.5em;
   border-radius: 50%;
-  background-color: #283b8b;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -45,12 +54,10 @@
   right: 25px;
   transform: translateY(-50%);
   display: none;
-}
-.brand_logo:hover {
-  background-color: #2642af;
+  background-color: var(--main-color2);
 }
 @media screen and (max-width: 768px) {
-  .brand_logo {
+  .nav_circle {
     display: block;
   }
 }
@@ -62,25 +69,25 @@
 @media screen and (max-width: 768px) {
   .nav_menu ul {
     position: absolute;
-    top: 60px;
+    top: 68px;
+    border-radius: 5px;
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 77px);
-    background-color: white;
-    border-top: 1px solid black;
+    background-color: var(--main-color3);
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   }
   .nav_menu li {
     text-align: center;
     margin: 0;
   }
+  .nav_menu li a:hover {
+    background-color: var(--main-color4);
+  }
   .nav_menu li a {
-    color: black;
+    color: var(--global-text-color);
     width: 100%;
     padding: 1.5rem 0;
-  }
-  .nav_menu li:hover {
-    background-color: #eee;
   }
 }
 @media screen and (max-width: 768px) {
@@ -91,5 +98,14 @@
 @media screen and (max-width: 768px) {
   .nav_menu.expanded ul {
     display: block;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 180px) {
+  .brand_name {
+    display: none;
+  }
+  .navbar {
+    align-items: center;
   }
 }

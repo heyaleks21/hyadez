@@ -1,0 +1,45 @@
+.contact-vars {
+  color: var(--main-color2);
+  padding-top: 0.25em;
+}
+.heading1 {
+  color: var(--main-color2);
+}
+
+.submit-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--main-color3);
+  border-radius: 5px;
+  padding: 0.5em 1em 1em 1em;
+}
+.submit-button {
+  font-size: medium;
+  margin-top: 1em;
+  padding: 0.1em 0.5em;
+  border-radius: 5px;
+  background-color: var(--main-color1);
+  color: var(--main-color2);
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* NEED TO CHANGE / IMPORT MODULE.CSS */
+input,
+textarea {
+  background-color: var(--main-color1);
+  color: var(--main-color2);
+  border-radius: 5px;
+}
+.submit-button:hover {
+  opacity: 50%;
+}
