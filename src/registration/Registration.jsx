@@ -58,7 +58,6 @@ const Registration = () => {
                 label="Username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="Username"
                 className="form__input"
                 required
               />
@@ -72,7 +71,6 @@ const Registration = () => {
                 label="Email address"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="Email address"
                 className="form__input"
                 required
               />
@@ -87,7 +85,6 @@ const Registration = () => {
                 label="Create password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="Password"
                 className="form__input"
                 required
               />
@@ -102,7 +99,6 @@ const Registration = () => {
                 label="Confirm password"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
-                placeholder="Confirm password"
                 className="form__input"
                 required
               />
