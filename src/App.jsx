@@ -13,8 +13,8 @@ function App() {
         <Navbar />
         <Registration />
         <Login />
-        <Logout />
         <Contact />
+        <Logout />
       </div>
     </>
   );
