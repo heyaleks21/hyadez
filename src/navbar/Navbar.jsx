@@ -46,6 +46,9 @@ function Navbar() {
             <li>
               <a href="/forum">Forum</a>
             </li>
+            <li>
+              <a href="/account">Account</a>
+            </li>
           </ul>
         </div>
       </nav>
