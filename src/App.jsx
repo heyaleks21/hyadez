@@ -11,9 +11,9 @@ function App() {
     <>
       <div>
         <Navbar />
-        <Logout />
-        <Login />
         <Registration />
+        <Login />
+        <Logout />
         <Contact />
       </div>
     </>

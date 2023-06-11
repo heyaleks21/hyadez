@@ -19,14 +19,16 @@ const Home = () => {
 
   return (
     <>
-      <div className="form">
-        <div className="form-body">
-          <h2 className="heading-registration">Logout test</h2>
+      <div className="form-leader">
+        <div className="form">
+          <div className="form-body">
+            <h2 className="heading-registration">Logout test</h2>
 
-          <div className="footer footer2">
-            <button className="btn" onClick={handleLogout}>
-              Logout
-            </button>
+            <div className="footer footer2">
+              <button className="btn" onClick={handleLogout}>
+                Logout
+              </button>
+            </div>
           </div>
         </div>
       </div>

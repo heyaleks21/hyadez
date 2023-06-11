@@ -11,7 +11,6 @@ const Registration = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
-
   const validatePassword = () => {
     let isValid = true;
     if (password !== "" && confirmPassword !== "") {
@@ -25,7 +24,6 @@ const Registration = () => {
     }
     return isValid;
   };
-
   const register = (e) => {
     e.preventDefault();
     if (validatePassword()) {
@@ -44,10 +42,9 @@ const Registration = () => {
         });
     }
   };
-
   return (
     <>
-      <div>
+      <div className="form-leader bluff">
         <div className="form">
           <div className="form-body">
             <h2 className="heading-registration">Register</h2>
@@ -66,7 +63,7 @@ const Registration = () => {
                 required
               />
             </div>
-            <div className="form-contents">
+            <div className="form-contents ">
               <label htmlFor="email" className="form__label">
                 Email
               </label>

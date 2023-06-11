@@ -27,7 +27,7 @@ const Login = () => {
 
   return (
     <>
-      <main>
+      <main className="form-leader">
         <section className="form">
           <div className="form-body">
             <h2 className="heading-registration">Login</h2>
