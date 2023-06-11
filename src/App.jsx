@@ -11,7 +11,6 @@ function App() {
     <>
       <div>
         <Navbar />
-        <Skills />
         <Logout />
         <Login />
         <Registration />

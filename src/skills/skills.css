@@ -1,5 +1,5 @@
 .front-end-title {
-  margin-top: 1em;
+  display: flex;
 }
 .description-container {
   display: flex;
@@ -32,13 +32,21 @@ h2 {
   padding-top: 1.65em;
 }
 .skills-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: var(--main-color3);
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   border-radius: 5px;
 }
 .skills-uls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-decoration: none;
-  padding: 1em 1em 0.5em 1em;
+  padding: 1em;
 }
 .skills-lis {
   padding: 0.3em;
@@ -54,6 +62,8 @@ h2 {
   justify-content: center;
   background-color: var(--main-color1);
   padding: 0.25em 0.6em;
+  margin-bottom: 3px;
+  margin-top: 3px;
   border-radius: 5px;
   color: var(--main-color2);
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
@@ -62,17 +72,17 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding-bottom: 0.7em;
 }
 @media screen and (max-width: 768px) {
   .description-container h2,
-  .description-container h3,
   .description-container h1 {
     display: none;
   }
 }
 @media screen and (max-width: 768px) {
   .description-container h2,
-  .description-container h3,
   .description-container h1 {
     display: none;
   }
