@@ -21,6 +21,9 @@
 .footer2 {
   margin-top: 0.5em;
 }
+.txt {
+  color: var(--main-color2);
+}
 .heading-registration,
 .form__label {
   color: var(--main-color2);

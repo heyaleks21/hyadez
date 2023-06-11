@@ -21,7 +21,7 @@ const Home = () => {
     <>
       <div className="form">
         <div className="form-body">
-          <h2>Account</h2>
+          <h2 className="heading-registration">Logout test</h2>
 
           <div className="footer footer2">
             <button className="btn" onClick={handleLogout}>

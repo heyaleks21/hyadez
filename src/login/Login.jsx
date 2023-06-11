@@ -69,7 +69,7 @@ const Login = () => {
                 </button>
               </div>
               <div className="footer">
-                <p>
+                <p className="txt">
                   No account yet? <NavLink to="/registration">Sign up</NavLink>
                 </p>
               </div>
