@@ -41,7 +41,6 @@ router.post("/contact", (req, res) => {
       res.json({ status: "ERROR" });
     } else {
       res.json({ status: "Message Sent" });
-      window.location.reload(false);
     }
   });
 });
