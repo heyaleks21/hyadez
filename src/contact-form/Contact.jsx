@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./contact.css";
-import { useParams } from "react-router-dom";
+import { useRef } from "react";
 
 const Contact = () => {
-  const url = useParams();
+  const url = window.location.href;
   console.log(url);
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
@@ -15,16 +15,13 @@ const Contact = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch(
-      { url },
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(details),
-      }
-    );
+    let response = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(details),
+    });
     setStatus("Submit");
     let result = await response.json();
     alert(result.status);
