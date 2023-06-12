@@ -5,6 +5,7 @@
 .heading1 {
   color: var(--main-color2);
   padding-bottom: 0.3em;
+  text-align: center;
 }
 .submit-form {
   display: flex;

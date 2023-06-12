@@ -36,7 +36,7 @@ const Contact = () => {
                 type="textarea"
                 name="msg"
                 required="yes"
-                rows="5"
+                rows="4"
               />
               <div className="button-container">
                 <button className="submit-button" type="submit" name="name">
