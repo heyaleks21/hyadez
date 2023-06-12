@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Contact from "./contact-form/Contact";
-import Skills from "./skills/Skills";
 import Forum from "./forum/Forum";
 import Registration from "./registration/Registration";
 import PrivateRoutes from "./PrivateRoute";
@@ -35,11 +34,38 @@ const RouteSwitch = () => {
           />
           <Route path="/" element={<App />} />
           <Route path="/home" element={<App />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/forum" element={<Forum />} />
-          <Route path="/registration" element={<Registration />} />
-          <Route path="/login" element={<Login />} />
+          <Route
+            path="/contact"
+            element={
+              <div className="bigbox">
+                <Contact />
+              </div>
+            }
+          />
+          <Route
+            path="/forum"
+            element={
+              <div className="bigbox">
+                <Forum />
+              </div>
+            }
+          />
+          <Route
+            path="/registration"
+            element={
+              <div className="bigbox">
+                <Registration />
+              </div>
+            }
+          />
+          <Route
+            path="/login"
+            element={
+              <div className="bigbox">
+                <Login />
+              </div>
+            }
+          />
         </Routes>
       </AuthProvider>
     </BrowserRouter>
