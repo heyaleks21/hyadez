@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 
 const Contact = () => {
   const url = useParams();
+  console.log(url);
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
