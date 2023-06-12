@@ -28,7 +28,7 @@ const Login = () => {
   return (
     <>
       <main className="form-leader">
-        <section className="form">
+        <div className="form">
           <div className="form-body">
             <h2 className="heading-registration">Login</h2>
             {error && <div className="password-error">{error}</div>}
@@ -73,7 +73,7 @@ const Login = () => {
               </div>
             </form>
           </div>
-        </section>
+        </div>
       </main>
     </>
   );

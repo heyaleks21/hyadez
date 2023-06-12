@@ -44,7 +44,7 @@ const Registration = () => {
   };
   return (
     <>
-      <div className="form-leader bluff">
+      <div className="form-leader">
         <div className="form">
           <div className="form-body">
             <h2 className="heading-registration">Register</h2>

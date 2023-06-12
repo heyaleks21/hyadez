@@ -10,6 +10,9 @@ a:hover {
 a {
   color: var(--main-color2);
 }
+.navbar-container {
+  padding-bottom: 70px;
+}
 .navbar {
   height: 70px;
   width: 100%;
