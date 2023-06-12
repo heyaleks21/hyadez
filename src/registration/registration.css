@@ -7,11 +7,12 @@
   padding: 1em 2em;
   display: inline-flex;
   width: 350px;
-  height: 400px;
+  height: 450px;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
+
 .form {
   flex: 1;
   width: 25vw;
