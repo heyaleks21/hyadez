@@ -1,7 +1,7 @@
 {
   "name": "navbar",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "node": "18.16.0",
   "npm": "9.5.1",
@@ -30,11 +30,4 @@
     "eslint-plugin-react-refresh": "^0.3.4",
     "vite": "^4.3.9"
   }
-  {
-    "name": "myapp",
-    "description": "a really cool app",
-    "version": "1.0.0",
-    "engines": {
-      
-    }
 }
