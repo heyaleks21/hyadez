@@ -6,7 +6,7 @@
   "node": "18.16.0",
   "npm": "9.5.1",
   "scripts": {
-    "start": "npm run dev",
+    "start": "node server",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
