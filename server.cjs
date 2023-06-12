@@ -16,9 +16,10 @@ const contactEmail = nodemailer.createTransport({
     user: "hyadezcontact@gmail.com",
     pass: "usvlygmgnrfklmxt",
   },
+  secure: true,
 });
 
-contactEmail.verify((error) => {
+await contactEmail.verify((error) => {
   if (error) {
     console.log(error);
   } else {
@@ -26,7 +27,7 @@ contactEmail.verify((error) => {
   }
 });
 
-router.post("/contact", (req, res) => {
+await router.post("/contact", (req, res) => {
   const name = req.body.name;
   const email = req.body.email;
   const message = req.body.message;
