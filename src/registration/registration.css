@@ -1,31 +1,15 @@
-.form-leader {
-  /* 
-  border: 2px solid;
-  background-color: #eee;
-  */
-
-  padding: 1em 2em;
-  display: inline-flex;
-  width: 380px;
-  height: 380px;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+.bigbox {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-.form {
-  flex: 1;
-  width: 25vw;
-  height: 25vh;
+.form-contents {
 }
 .form-body {
-  display: flex;
-  flex-direction: column;
-  border-radius: 5px;
   background-color: var(--main-color3);
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   padding: 1em;
+  border-radius: 5px;
 }
+
 .form-contents {
   display: flex;
   justify-content: space-between;

@@ -44,8 +44,8 @@ const Registration = () => {
   };
   return (
     <>
-      <div className="form-leader">
-        <div className="form">
+      <div className="form">
+        <div className="form-leader">
           <div className="form-body">
             <h2 className="heading-registration">Register</h2>
             {error && <div className="credential-error">{error}</div>}

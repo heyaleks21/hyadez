@@ -19,8 +19,8 @@ const Home = () => {
 
   return (
     <>
-      <div className="form-leader">
-        <div className="form">
+      <div className="form">
+        <div className="form-leader">
           <div className="form-body">
             <h2 className="heading-registration">Logout test</h2>
 

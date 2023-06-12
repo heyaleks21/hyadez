@@ -1,6 +1,5 @@
 import "./app.css";
 import Navbar from "./navbar/Navbar.jsx";
-import Skills from "./skills/Skills.jsx";
 import Contact from "./contact-form/Contact.jsx";
 import Login from "./login/Login.jsx";
 import Logout from "./logout/Logout.jsx";
@@ -11,10 +10,12 @@ function App() {
     <>
       <div>
         <Navbar />
+      </div>
+      <div className="bigbox">
+        <Contact />
         <Registration />
         <Login />
         <Logout />
-        <Contact />
       </div>
     </>
   );
