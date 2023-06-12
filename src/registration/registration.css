@@ -6,7 +6,9 @@
 }
 .form-body {
   background-color: var(--main-color3);
-  padding: 1em;
+
+  padding: 0.75em;
+  margin: 1em;
   border-radius: 5px;
 }
 .form-contents {
