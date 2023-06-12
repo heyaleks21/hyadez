@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
-var port = 3000;
+var port = 3001;
 const app = express();
 app.use(cors());
 app.use(express.json());
