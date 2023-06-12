@@ -4,8 +4,6 @@
   flex-wrap: wrap;
   height: 50vh;
 }
-.form-contents {
-}
 .form-body {
   background-color: var(--main-color3);
   padding: 1em;
