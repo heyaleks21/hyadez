@@ -2,14 +2,13 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  height: 50vh;
+  height: 100vh;
 }
 .form-body {
   background-color: var(--main-color3);
   padding: 1em;
   border-radius: 5px;
 }
-
 .form-contents {
   display: flex;
   justify-content: space-between;
