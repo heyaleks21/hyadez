@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./contact.css";
-const url = `${process.env.API_URL}/${props.match.params.id}`
+const url = `${process.env.API_URL}/${props.match.params.id}`;
 
 const Contact = () => {
   const [status, setStatus] = useState("Submit");
