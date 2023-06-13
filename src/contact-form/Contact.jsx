@@ -62,8 +62,8 @@ const Contact = () => {
               rows="4"
               id="message"
             />
-            <div className="button-container">
-              <button className="submit-button" type="submit" name="name">
+            <div className="footer footer2">
+              <button className="btn" type="submit" name="name">
                 {status}
               </button>
             </div>
