@@ -5,7 +5,15 @@ import Account from "./account/Account";
 
 const PrivateRoutes = () => {
   const { currentUser } = useAuthValue();
-  return currentUser ? <Account /> : <Login />;
+  return currentUser ? (
+    <div className="bigbox">
+      <Account />
+    </div>
+  ) : (
+    <div className="bigbox">
+      <Login />
+    </div>
+  );
 };
 
 export default PrivateRoutes;
