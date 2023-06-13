@@ -7,7 +7,7 @@ function Navbar() {
       <div className="navbar-container">
         <nav className="navbar">
           <h1 href="/" className="brand_name">
-            Hyadez
+            Aleks Manevski
           </h1>
           <button
             className="nav_circle"
@@ -33,10 +33,9 @@ function Navbar() {
           <div className={isNavExpanded ? "nav_menu expanded" : "nav_menu"}>
             <ul>
               <li>
-                <a href="/contact">Contact</a>
-              </li>
-              <li>
-                <a href="/forum">Forum</a>
+                <a href="/Aleks Manevski Resume 2023.pdf" download>
+                  Download My Resume
+                </a>
               </li>
               <li>
                 <a href="/account">Account</a>
