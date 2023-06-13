@@ -15,19 +15,6 @@
   border-radius: 5px;
   padding: 0 3px;
 }
-.submit-button {
-  font-size: medium;
-  margin-top: 1em;
-  padding: 0.1em 0.5em;
-  border-radius: 5px;
-  background-color: var(--main-color1);
-  color: var(--main-color2);
-}
-.button-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 /* NEED TO CHANGE / IMPORT MODULE.CSS */
 input,
 textarea {

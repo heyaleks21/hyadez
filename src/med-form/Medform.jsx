@@ -69,31 +69,36 @@ const Medform = () => {
             <input
               className="form__input checkboxes"
               id="csv-male"
-              type="checkbox"
+              type="radio"
+              name="check"
             />
             <label className="form__label">Female</label>
             <input
               className="form__input checkboxes"
               id="csv-female"
-              type="checkbox"
+              type="radio"
+              name="check"
             />
             <label className="form__label">Non-binary</label>
             <input
               className="form__input checkboxes"
               id="csv-nb"
-              type="checkbox"
+              type="radio"
+              name="check"
             />
             <label className="form__label">Prefer not to say</label>
             <input
               className="form__input checkboxes"
               id="csv-pnts"
-              type="checkbox"
+              type="radio"
+              name="check"
             />
             <label className="form__label">Other</label>
             <input
               className="form__input checkboxes"
               id="csv-other"
-              type="checkbox"
+              type="radio"
+              name="check"
             />
           </div>
           <div className="form-contents">
@@ -101,13 +106,33 @@ const Medform = () => {
           </div>
           <div className="form-contents test1">
             <label className="form__label">Married</label>
-            <input className="form__input" id="csv-married" type="checkbox" />
+            <input
+              className="form__input"
+              id="csv-married"
+              type="radio"
+              name="check2"
+            />
             <label className="form__label">Single</label>
-            <input className="form__input" id="csv-single" type="checkbox" />
+            <input
+              className="form__input"
+              id="csv-single"
+              type="radio"
+              name="check2"
+            />
             <label className="form__label">Divorced</label>
-            <input className="form__input" id="csv-divorced" type="checkbox" />
+            <input
+              className="form__input"
+              id="csv-divorced"
+              type="radio"
+              name="check2"
+            />
             <label className="form__label">Widowed</label>
-            <input className="form__input" id="csv-widowed" type="checkbox" />
+            <input
+              className="form__input"
+              id="csv-widowed"
+              type="radio"
+              name="check2"
+            />
           </div>
           <div className="form-contents">
             <label className="form__label">Medicare:</label>
