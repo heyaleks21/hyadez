@@ -5,6 +5,15 @@ import { CSVLink } from "react-csv";
 const Mediform = () => {
   const { register, handleSubmit } = useForm();
   const [csvData, setCsvData] = useState([]);
+  const [buttonText, setButtonText] = useState("Load data to CSV");
+  const changeText = (text) => {
+    const chks = document.getElementsByName("ischecked");
+    var results = [];
+    for (let i = 0; i < chks.length; i++) {
+      chks[i].checked ? setButtonText(text) : setButtonText("Load data to CSV");
+    }
+    return results;
+  };
 
   const headers = [
     { label: "First Name", key: "fn" },
@@ -160,13 +169,17 @@ const Mediform = () => {
           </div>
           <div className="footer footer2">
             <label className="form__label">
-              <input type="checkbox" required />
+              <input type="checkbox" required name="ischecked" />
               Agreement to the Data Privacy Policy
             </label>
           </div>
           <div className="footer footer2">
-            <button type="submit" className="btn">
-              Load data to CSV
+            <button
+              type="submit"
+              className="btn"
+              onClick={() => changeText("Loaded")}
+            >
+              {buttonText}
             </button>
             <CSVLink className="btn" data={csvData} headers={headers}>
               Download
