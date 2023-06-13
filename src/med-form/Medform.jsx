@@ -18,6 +18,7 @@ const Mediform = () => {
   const headers = [
     { label: "First Name", key: "fn" },
     { label: "Last Name", key: "ln" },
+    { label: "Last Name", key: "mn" },
     { label: "Preferred name", key: "pn" },
     { label: "DOB", key: "dob" },
     { label: "Age", key: "age" },
@@ -47,12 +48,16 @@ const Mediform = () => {
         <div className="form-body">
           <h2 className="heading-registration">Patient Notes</h2>
           <div className="form-contents">
-            <label className="form__label">First Name:</label>
+            <label className="form__label">Given Name:</label>
             <input className="form__input" {...register("fn")} type="text" />
           </div>
           <div className="form-contents">
             <label className="form__label">Last Name:</label>
             <input className="form__input" {...register("ln")} type="text" />
+          </div>
+          <div className="form-contents">
+            <label className="form__label">Middle Name:</label>
+            <input className="form__input" {...register("mn")} type="text" />
           </div>
           <div className="form-contents">
             <label className="form__label">Preferred name:</label>
