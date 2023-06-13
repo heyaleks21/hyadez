@@ -1,148 +1,150 @@
-import React from "react";
+import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { CSVLink } from "react-csv";
 
-const Medform = () => {
+const Mediform = () => {
+  const { register, handleSubmit } = useForm();
+  const [csvData, setCsvData] = useState([]);
+
+  const headers = [
+    { label: "First Name", key: "fn" },
+    { label: "Last Name", key: "ln" },
+    { label: "Preferred name", key: "pn" },
+    { label: "DOB", key: "dob" },
+    { label: "Age", key: "age" },
+    { label: "Address", key: "add" },
+    { label: "City", key: "city" },
+    { label: "State", key: "state" },
+    { label: "Postcode", key: "zip" },
+    { label: "Home", key: "home" },
+    { label: "Work", key: "work" },
+    { label: "Mobile", key: "mobile" },
+    { label: "Employer/School", key: "status" },
+    { label: "Sex", key: "sex" },
+    { label: "Martital Status", key: "marital" },
+    { label: "Medicare Number", key: "medi" },
+    { label: "Private Health Insurance", key: "phi" },
+    { label: "Insurance Number", key: "phinum" },
+  ];
+
+  const onSubmit = (data) => {
+    console.log(data);
+    setCsvData((prev) => [...prev, data]);
+  };
+
   return (
     <>
-      <div className="form">
+      <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <div className="form-body">
-          <h2 className="heading-registration">Patient notes</h2>
+          <h2 className="heading-registration">Patient Notes</h2>
           <div className="form-contents">
             <label className="form__label">First Name:</label>
-            <input className="form__input" id="csv-firstname" type="text" />
+            <input className="form__input" {...register("fn")} type="text" />
           </div>
           <div className="form-contents">
             <label className="form__label">Last Name:</label>
-            <input className="form__input" id="csv-lastname" type="text" />
+            <input className="form__input" {...register("ln")} type="text" />
           </div>
           <div className="form-contents">
             <label className="form__label">Preferred name:</label>
-            <input className="form__input" id="csv-preferredname" type="text" />
+            <input className="form__input" {...register("pn")} type="text" />
           </div>
           <div className="form-contents">
-            <label className="form__label">Date of birth:</label>
-            <input className="form__input" id="csv-dob" type="date" />
+            <label className="form__label">Date of Birth:</label>
+            <input className="form__input" {...register("dob")} type="date" />
           </div>
           <div className="form-contents">
             <label className="form__label">Age:</label>
-            <input className="form__input" id="csv-age" type="number" />
+            <input className="form__input" {...register("age")} type="number" />
           </div>
           <div className="form-contents">
-            <label className="form__label">Address:</label>
-            <input className="form__input" id="csv-address" type="text" />
+            <label className="form__label" type="text">
+              Address
+            </label>
+            <input className="form__input" {...register("add")} />
           </div>
           <div className="form-contents">
-            <label className="form__label">City:</label>
-            <input className="form__input" id="csv-city" type="text" />
+            <label className="form__label" type="text">
+              City
+            </label>
+            <input className="form__input" {...register("city")} />
           </div>
+
           <div className="form-contents">
             <label className="form__label">State:</label>
-            <input className="form__input" id="csv-state" type="text" />
+            <input className="form__input" {...register("state")} type="text" />
           </div>
           <div className="form-contents">
             <label className="form__label">Postcode:</label>
-            <input className="form__input" id="csv-postcode" type="number" />
+            <input className="form__input" {...register("zip")} type="number" />
           </div>
           <div className="form-contents">
             <label className="form__label noinput">Telephone</label>
           </div>
           <div className="form-contents">
             <label className="form__label">Work:</label>
-            <input className="form__input" id="csv-workno" type="number" />
+            <input
+              className="form__input"
+              {...register("work")}
+              type="number"
+            />
           </div>
           <div className="form-contents">
             <label className="form__label">Home:</label>
-            <input className="form__input" id="csv-home" type="number" />
+            <input
+              className="form__input"
+              {...register("home")}
+              type="number"
+            />
           </div>
           <div className="form-contents">
-            <label className="form__label">Work:</label>
-            <input className="form__input" id="csv-workno" type="number" />
+            <label className="form__label">Mobile:</label>
+            <input
+              className="form__input"
+              {...register("mobile")}
+              type="number"
+            />
           </div>
           <div className="form-contents">
             <label className="form__label">Employer/School:</label>
-            <input className="form__input" id="csv-workstatus" type="text" />
-          </div>
-          <div className="form-contents">
-            <label className="form__label noinput">Sex</label>
-          </div>
-          <div className="form-contents test1">
-            <label className="form__label">Male</label>
             <input
-              className="form__input checkboxes"
-              id="csv-male"
-              type="radio"
-              name="check"
-            />
-            <label className="form__label">Female</label>
-            <input
-              className="form__input checkboxes"
-              id="csv-female"
-              type="radio"
-              name="check"
-            />
-            <label className="form__label">Non-binary</label>
-            <input
-              className="form__input checkboxes"
-              id="csv-nb"
-              type="radio"
-              name="check"
-            />
-            <label className="form__label">Prefer not to say</label>
-            <input
-              className="form__input checkboxes"
-              id="csv-pnts"
-              type="radio"
-              name="check"
-            />
-            <label className="form__label">Other</label>
-            <input
-              className="form__input checkboxes"
-              id="csv-other"
-              type="radio"
-              name="check"
+              className="form__input"
+              {...register("status")}
+              type="text"
             />
           </div>
           <div className="form-contents">
-            <label className="form__label noinput">Martial status</label>
+            <label className="form__label">Sex</label>
+            <select className="form__label" {...register("sex")}>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Non-binary">Non-binary</option>
+              <option value="Prefer not to say">Prefer not to say</option>
+              <option value="Other">Other</option>
+            </select>
           </div>
-          <div className="form-contents test1">
-            <label className="form__label">Married</label>
-            <input
-              className="form__input"
-              id="csv-married"
-              type="radio"
-              name="check2"
-            />
-            <label className="form__label">Single</label>
-            <input
-              className="form__input"
-              id="csv-single"
-              type="radio"
-              name="check2"
-            />
-            <label className="form__label">Divorced</label>
-            <input
-              className="form__input"
-              id="csv-divorced"
-              type="radio"
-              name="check2"
-            />
-            <label className="form__label">Widowed</label>
-            <input
-              className="form__input"
-              id="csv-widowed"
-              type="radio"
-              name="check2"
-            />
+          <div className="form-contents">
+            <label className="form__label">Marital Status</label>
+            <select className="form__label" {...register("marital")}>
+              <option value="Single">Single</option>
+              <option value="Married">Married</option>
+              <option value="Divorced">Divorced</option>
+              <option value="Prefer not to say">Prefer not to say</option>
+            </select>
           </div>
           <div className="form-contents">
             <label className="form__label">Medicare:</label>
-            <input className="form__input" id="csv-medicare" type="number" />
+            <input
+              className="form__input"
+              {...register("medi")}
+              type="number"
+            />
           </div>
           <div className="form-contents">
             <label className="form__label">Private health insurance:</label>
             <input
               className="form__input"
-              id="csv-privateinsurance"
+              {...register("phi")}
               type="checkbox"
             />
           </div>
@@ -152,18 +154,28 @@ const Medform = () => {
             </label>
             <input
               className="form__input"
-              id="csv-insurancenumber"
+              {...register("phinum")}
               type="number"
             />
           </div>
           <div className="footer footer2">
-            <button className="btn">Submit</button>
-            <button className="btn">Download as CSV</button>
+            <label className="form__label">
+              <input type="checkbox" required />
+              Agreement to the Data Privacy Policy
+            </label>
+          </div>
+          <div className="footer footer2">
+            <button type="submit" className="btn">
+              Load data to CSV
+            </button>
+            <CSVLink className="btn" data={csvData} headers={headers}>
+              Download
+            </CSVLink>
           </div>
         </div>
-      </div>
+      </form>
     </>
   );
 };
 
-export default Medform;
+export default Mediform;
