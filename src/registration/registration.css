@@ -48,6 +48,13 @@
 .heading-registration {
   padding-bottom: 0.5em;
 }
+.noinput {
+  font-weight: bold;
+}
+.test1 label {
+  padding-right: 0;
+  padding-left: 1em;
+}
 .btn,
 .txt,
 .form__input,
