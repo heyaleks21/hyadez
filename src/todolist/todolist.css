@@ -4,6 +4,11 @@
 .tododiv p {
   color: var(--main-color2);
 }
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .tododiv {
   display: flex;
   justify-content: center;

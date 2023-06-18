@@ -26,7 +26,7 @@ const Todolist = () => {
       <div className="form">
         <div className="form-body">
           <h2 className="heading-registration">To-do List</h2>
-          <div>
+          <div className="todo-container">
             <input
               className="btn"
               type="text"
