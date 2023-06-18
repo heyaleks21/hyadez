@@ -1,6 +1,9 @@
 .tododiv * {
   margin: 0 0.5em;
 }
+ul {
+  list-style: none;
+}
 .tododiv p {
   color: var(--main-color2);
 }

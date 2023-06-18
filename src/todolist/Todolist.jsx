@@ -14,12 +14,19 @@ const Todolist = () => {
   const addTodo = () => {
     if (!newItem) return;
     const item = {
-      id: todos.length + 1,
+      id: todos.length,
       value: newItem,
     };
     console.log(item);
     setTodos((oldArr) => [...oldArr, item]);
     setNewItem("");
+  };
+
+  const removeTodo = (id) => {
+    console.log(id);
+    const deleted = todos.filter((item) => item.id !== id);
+    console.log(deleted);
+    setTodos(deleted);
   };
   return (
     <>
@@ -44,8 +51,11 @@ const Todolist = () => {
                   icon={faPenToSquare}
                   style={{ color: "#1f212e" }}
                 />
-
-                <FontAwesomeIcon icon={faXmark} style={{ color: "#ff0000" }} />
+                <FontAwesomeIcon
+                  icon={faXmark}
+                  style={{ color: "#ff0000" }}
+                  onClick={() => removeTodo(item.id)}
+                />
                 <FontAwesomeIcon icon={faCheck} style={{ color: "#009e03" }} />
                 <p>{item.value}</p>
               </div>
