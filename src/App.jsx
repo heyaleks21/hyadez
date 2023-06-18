@@ -5,6 +5,7 @@ import Login from "./login/Login.jsx";
 import Logout from "./logout/Logout.jsx";
 import Registration from "./registration/Registration.jsx";
 import Medform from "./med-form/Medform";
+import Todolist from "./todolist/Todolist.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Login />
         <Logout />
         <Medform />
+        <Todolist />
       </div>
     </>
   );

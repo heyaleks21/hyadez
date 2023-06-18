@@ -1,0 +1,10 @@
+.tododiv * {
+  margin: 0 0.5em;
+}
+.tododiv {
+  display: flex;
+
+  align-items: center;
+  margin: 1em;
+  text-align: center;
+}
