@@ -1,9 +1,12 @@
 .tododiv * {
   margin: 0 0.5em;
 }
+.tododiv p {
+  color: var(--main-color2);
+}
 .tododiv {
   display: flex;
-
+  justify-content: center;
   align-items: center;
   margin: 1em;
   text-align: center;
