@@ -16,6 +16,7 @@ const Todolist = () => {
     const item = {
       id: todos.length,
       value: newItem,
+      complete: false,
     };
     console.log(item);
     setTodos((oldArr) => [...oldArr, item]);
@@ -27,6 +28,16 @@ const Todolist = () => {
     const deleted = todos.filter((item) => item.id !== id);
     console.log(deleted);
     setTodos(deleted);
+  };
+
+  const completeTodo = (id) => {
+    let mapped = todos.map((task) => {
+      return task.id === id
+        ? { ...task, complete: !task.complete }
+        : { ...task };
+    });
+    console.log(mapped);
+    setTodos(mapped);
   };
   return (
     <>
@@ -48,16 +59,22 @@ const Todolist = () => {
             return (
               <div className="tododiv" key={item.id}>
                 <FontAwesomeIcon
-                  icon={faPenToSquare}
-                  style={{ color: "#1f212e" }}
-                />
-                <FontAwesomeIcon
                   icon={faXmark}
                   style={{ color: "#ff0000" }}
                   onClick={() => removeTodo(item.id)}
                 />
-                <FontAwesomeIcon icon={faCheck} style={{ color: "#009e03" }} />
-                <p>{item.value}</p>
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  style={{ color: "#009e03" }}
+                  onClick={() => completeTodo(item.id)}
+                />
+                <p
+                  style={{
+                    textDecoration: item.complete ? "line-through" : "none",
+                  }}
+                >
+                  {item.value}
+                </p>
               </div>
             );
           })}
