@@ -186,9 +186,15 @@ const Mediform = () => {
             >
               {buttonText}
             </button>
-            <CSVLink className="btn" data={csvData} headers={headers}>
-              Download
-            </CSVLink>
+            <>
+              {buttonText === "Loaded" ? (
+                <CSVLink className="btn" data={csvData} headers={headers}>
+                  Download
+                </CSVLink>
+              ) : (
+                <></>
+              )}
+            </>
           </div>
         </div>
       </form>
