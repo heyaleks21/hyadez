@@ -21,7 +21,10 @@ const Logout = () => {
     <>
       <div className="form">
         <div className="form-body">
-          <h2 className="heading-registration">Logout test</h2>
+          <h2 className="heading-registration">Welcome to your account</h2>
+          <h2 className="heading-registration">
+            (private page based on authentication/login)
+          </h2>
 
           <div className="footer footer2">
             <button className="btn" onClick={handleLogout}>
