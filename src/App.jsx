@@ -15,7 +15,6 @@ function App() {
       <div className="bigbox">
         <Contact />
         <Registration />
-        <Login />
         <Todolist />
         <Medform />
       </div>
