@@ -34,11 +34,11 @@ function Navbar() {
             <ul>
               <li>
                 <a href="/Aleks Manevski Resume 2023.pdf" download>
-                  Download My Resume
+                  Download Aleks' Resume
                 </a>
               </li>
               <li>
-                <a href="/account">Account</a>
+                <a href="/account">Dashboard</a>
               </li>
             </ul>
           </div>
