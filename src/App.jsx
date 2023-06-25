@@ -1,9 +1,6 @@
 import "./app.css";
 import Navbar from "./navbar/Navbar.jsx";
-import Contact from "./contact-form/Contact.jsx";
-import Registration from "./registration/Registration.jsx";
-import Medform from "./med-form/Medform";
-import Todolist from "./todolist/Todolist.jsx";
+import Skills from "./skills/Skills";
 
 function App() {
   return (
@@ -11,11 +8,8 @@ function App() {
       <div>
         <Navbar />
       </div>
-      <div className="bigbox">
-        <Contact />
-        <Registration />
-        <Todolist />
-        <Medform />
+      <div>
+        <Skills />
       </div>
     </>
   );

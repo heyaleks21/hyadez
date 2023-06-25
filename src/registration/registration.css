@@ -1,8 +1,14 @@
-.bigbox {
+/* .bigbox {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 60vh;
+} */
+
+.secondbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .form-body {
   background-color: var(--main-color3);

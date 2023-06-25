@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Contact from "./contact-form/Contact";
-import Forum from "./forum/Forum";
 import Registration from "./registration/Registration";
 import PrivateRoutes from "./PrivateRoute";
 import Login from "./login/Login";
@@ -10,6 +9,9 @@ import { AuthProvider } from "./AuthContext";
 import { useState, useEffect } from "react";
 import { auth } from "./firebase";
 import { onAuthStateChanged } from "firebase/auth";
+import Mediform from "./med-form/Medform";
+import Todolist from "./todolist/Todolist";
+import Resume from "./resume/Resume";
 
 const RouteSwitch = () => {
   const [currentUser, setCurrentUser] = useState(null);
@@ -43,10 +45,10 @@ const RouteSwitch = () => {
             }
           />
           <Route
-            path="/forum"
+            path="/medform"
             element={
               <div className="bigbox">
-                <Forum />
+                <Mediform />
               </div>
             }
           />
@@ -63,6 +65,22 @@ const RouteSwitch = () => {
             element={
               <div className="bigbox">
                 <Login />
+              </div>
+            }
+          />
+          <Route
+            path="/todolist"
+            element={
+              <div className="bigbox">
+                <Todolist />
+              </div>
+            }
+          />
+          <Route
+            path="/resume"
+            element={
+              <div className="bigbox">
+                <Resume />
               </div>
             }
           />

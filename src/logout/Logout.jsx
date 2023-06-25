@@ -1,6 +1,7 @@
 import { signOut } from "firebase/auth";
 import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../navbar/Navbar";
 
 const Logout = () => {
   const navigate = useNavigate();
@@ -19,17 +20,20 @@ const Logout = () => {
 
   return (
     <>
-      <div className="form">
-        <div className="form-body">
-          <h2 className="heading-registration">Welcome to your account</h2>
-          <h2 className="heading-registration">
-            (private page based on authentication/login)
-          </h2>
+      <Navbar />
+      <div className="secondbox">
+        <div className="form">
+          <div className="form-body">
+            <h2 className="heading-registration">Welcome to your account</h2>
+            <h2 className="heading-registration">
+              (private page based on authentication/login)
+            </h2>
 
-          <div className="footer footer2">
-            <button className="btn" onClick={handleLogout}>
-              Logout
-            </button>
+            <div className="footer footer2">
+              <button className="btn" onClick={handleLogout}>
+                Logout
+              </button>
+            </div>
           </div>
         </div>
       </div>

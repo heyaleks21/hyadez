@@ -62,17 +62,17 @@ a {
   display: none;
   background-color: var(--main-color2);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .nav_circle {
     display: block;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .nav_menu ul {
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .nav_menu ul {
     border: 1px solid var(--main-color5);
     position: absolute;
@@ -96,12 +96,12 @@ a {
     padding: 1.5rem 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .nav_menu ul {
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .nav_menu.expanded ul {
     display: block;
     padding: 0;

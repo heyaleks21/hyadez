@@ -28,6 +28,9 @@ h1 {
 select {
   background-color: var(--main-color1);
 }
+a {
+  text-decoration: none;
+}
 .btn {
   text-decoration: none;
   text-align: center;

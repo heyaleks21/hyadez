@@ -1,50 +1,50 @@
-.front-end-title {
+.skillsbox {
+  width: 100%;
   display: flex;
-}
-.description-container {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  height: 100vh;
+  justify-content: center;
 }
-.description-container p,
-h1,
-h2 {
-  color: var(--main-color2);
-}
-.description-container h1 {
-}
-.skills-container2 {
+.skills-heading {
+  padding: 0.25em;
   text-align: center;
+  color: var(--global-text-color);
+}
+.box2 {
+  width: 600px;
+}
+.pbox {
+  padding: 0.25em 1em;
+}
+.skills-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 1em;
 }
-
-.skills-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 1.65em;
-}
 .skills-list-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin-top: 2em;
   background-color: var(--main-color3);
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   border-radius: 5px;
+  border: 1px solid var(--main-color5);
+}
+.skills-headings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color1);
+  border: 1px solid var(--main-color5);
+  padding: 0.25em 0.6em;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  border-radius: 5px;
+  color: var(--main-color2);
 }
 .skills-uls {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   padding: 1em;
 }
@@ -56,18 +56,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-.skills-headings {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--main-color1);
-  padding: 0.25em 0.6em;
-  margin-bottom: 3px;
-  margin-top: 3px;
-  border-radius: 5px;
-  color: var(--main-color2);
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-}
+
 .skills-title-container {
   display: flex;
   align-items: center;

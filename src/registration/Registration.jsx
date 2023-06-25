@@ -3,6 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
 import "./registration.css";
+import Navbar from "../navbar/Navbar";
 
 const Registration = () => {
   const navigate = useNavigate();
@@ -44,74 +45,77 @@ const Registration = () => {
   };
   return (
     <>
-      <div className="form">
-        <div className="form-body">
-          <h2 className="heading-registration">Register</h2>
-          {error && <div className="credential-error">{error}</div>}
-          <div className="form-contents">
-            <label htmlFor="" className="form__label">
-              Username
-            </label>
-            <input
-              type="text"
-              label="Username"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              className="form__input"
-              required
-            />
-          </div>
-          <div className="form-contents ">
-            <label htmlFor="email" className="form__label">
-              Email
-            </label>
-            <input
-              type="email"
-              label="Email address"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="form__input"
-              required
-            />
-          </div>
+      <Navbar />
+      <div className="secondbox">
+        <div className="form">
+          <div className="form-body">
+            <h2 className="heading-registration">Register</h2>
+            {error && <div className="credential-error">{error}</div>}
+            <div className="form-contents">
+              <label htmlFor="" className="form__label">
+                Username
+              </label>
+              <input
+                type="text"
+                label="Username"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                className="form__input"
+                required
+              />
+            </div>
+            <div className="form-contents">
+              <label htmlFor="email" className="form__label">
+                Email
+              </label>
+              <input
+                type="email"
+                label="Email address"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="form__input"
+                required
+              />
+            </div>
 
-          <div className="form-contents">
-            <label htmlFor="password" className="form__label">
-              Password
-            </label>
-            <input
-              type="password"
-              label="Create password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="form__input"
-              required
-            />
-          </div>
+            <div className="form-contents">
+              <label htmlFor="password" className="form__label">
+                Password
+              </label>
+              <input
+                type="password"
+                label="Create password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                className="form__input"
+                required
+              />
+            </div>
 
-          <div className="form-contents">
-            <label htmlFor="confirmPassword" className="form__label">
-              Confirm password
-            </label>
-            <input
-              type="password"
-              label="Confirm password"
-              value={confirmPassword}
-              onChange={(e) => setConfirmPassword(e.target.value)}
-              className="form__input"
-              required
-            />
-          </div>
+            <div className="form-contents">
+              <label htmlFor="confirmPassword" className="form__label">
+                Confirm password
+              </label>
+              <input
+                type="password"
+                label="Confirm password"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+                className="form__input"
+                required
+              />
+            </div>
 
-          <form onSubmit={register} className="footer footer2">
-            <button className="btn" type="submit">
-              Sign up
-            </button>
-          </form>
-          <div className="footer">
-            <p className="txt">
-              Already have an account? <NavLink to="/login">Sign in</NavLink>
-            </p>
+            <form onSubmit={register} className="footer footer2">
+              <button className="btn" type="submit">
+                Sign up
+              </button>
+            </form>
+            <div className="footer">
+              <p className="txt">
+                Already have an account? <NavLink to="/login">Sign in</NavLink>
+              </p>
+            </div>
           </div>
         </div>
       </div>
