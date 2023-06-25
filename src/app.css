@@ -12,7 +12,7 @@
   --main-color8: #505050b9;
 }
 * {
-  animation: transitionIn 0.75s;
+  animation: pageTransition 1s;
   font-family: "Kanit", sans-serif;
   margin: 0;
   padding: 0;
@@ -22,14 +22,12 @@
 body {
   background-color: var(--main-color1);
 }
-
 h1 {
   color: var(--main-color1);
 }
 select {
   background-color: var(--main-color1);
 }
-
 .btn {
   text-decoration: none;
   text-align: center;
@@ -48,28 +46,7 @@ select {
     color: var(--main-color2);
   }
 }
-.form-body:hover,
-.submit-form:hover {
-  background-color: var(--main-color3);
-  animation-name: backr;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-@keyframes backr {
-  0% {
-    background-color: var(--main-color3);
-  }
-  25% {
-    background-color: var(--main-color4);
-  }
-  50% {
-    background-color: var(--main-color4);
-  }
-  100% {
-    background-color: var(--main-color3);
-  }
-}
-@keyframes transitionIn {
+@keyframes pageTransition {
   from {
     opacity: 0;
   }
