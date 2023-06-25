@@ -9,6 +9,7 @@
   padding: 0.75em;
   margin: 1em;
   border-radius: 5px;
+  border: 1px solid var(--main-color5);
 }
 .form-contents {
   display: flex;
@@ -34,6 +35,7 @@
 }
 .form__input {
   text-align: center;
+  border: 1px solid var(--main-color5);
 }
 .btn {
   font-size: medium;
@@ -41,6 +43,7 @@
   background-color: var(--main-color1);
   color: var(--main-color2);
   padding: 0 5px 2px 5px;
+  border: 1px solid var(--main-color5);
 }
 .btn:hover {
   opacity: 50%;

@@ -21,6 +21,7 @@ textarea {
   background-color: var(--main-color1);
   color: var(--main-color2);
   border-radius: 5px;
+  border: 1px solid var(--main-color5);
 }
 .submit-button:hover {
   opacity: 50%;

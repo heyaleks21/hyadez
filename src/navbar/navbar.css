@@ -22,7 +22,7 @@ a {
   position: fixed;
   border-radius: 5px;
   background-color: var(--main-color3);
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  border: 1px solid var(--main-color5);
 }
 .brand_name {
   margin-left: 1em;
@@ -74,6 +74,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .nav_menu ul {
+    border: 1px solid var(--main-color5);
     position: absolute;
     top: 68px;
     border-radius: 5px;
