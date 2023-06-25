@@ -6,14 +6,6 @@ const Mediform = () => {
   const { register, handleSubmit } = useForm();
   const [csvData, setCsvData] = useState([]);
   const [buttonText, setButtonText] = useState("Load data to CSV");
-  const changeText = (text) => {
-    const chks = document.getElementsByName("ischecked");
-    var results = [];
-    for (let i = 0; i < chks.length; i++) {
-      chks[i].checked ? setButtonText(text) : setButtonText("Load data to CSV");
-    }
-    return results;
-  };
 
   const headers = [
     { label: "First Name", key: "fn" },
@@ -36,6 +28,15 @@ const Mediform = () => {
     { label: "Private Health Insurance", key: "phi" },
     { label: "Insurance Number", key: "phinum" },
   ];
+
+  const changeText = (text) => {
+    const chks = document.getElementsByName("ischecked");
+    var results = [];
+    for (let i = 0; i < chks.length; i++) {
+      chks[i].checked ? setButtonText(text) : setButtonText("Load data to CSV");
+    }
+    return results;
+  };
 
   const onSubmit = (data) => {
     console.log(data);

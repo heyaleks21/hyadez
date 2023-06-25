@@ -44,9 +44,9 @@ const Todolist = () => {
       <div className="form">
         <div className="form-body">
           <h2 className="heading-registration">To-do List</h2>
-          <div className="todo-container">
+          <div className="form-contents">
             <input
-              className="btn"
+              className="form__input"
               type="text"
               value={newItem}
               onChange={(e) => setNewItem(e.target.value)}

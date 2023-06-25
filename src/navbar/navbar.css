@@ -27,6 +27,9 @@ a {
 .brand_name {
   margin-left: 1em;
   color: var(--main-color2);
+  animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
 }
 .nav_menu {
   margin-left: auto;
