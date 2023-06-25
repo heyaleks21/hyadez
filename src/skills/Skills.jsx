@@ -24,8 +24,7 @@ const Skills = () => {
                   customer-service roles at renowned companies like Datacom,
                   Hewlett Packard Enterprise, and iiNet. These positions
                   enhanced my communication and teamwork abilities while
-                  exposing me to contemporary IT systems, procedures, and
-                  standards.
+                  exposing me to modern IT systems, procedures, and standards.
                 </p>
               </div>
             </div>
