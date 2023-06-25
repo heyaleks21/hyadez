@@ -7,26 +7,24 @@ const Skills = () => {
         <div className="box2">
           <div className="form-body">
             <h1 className="skills-heading">Hello There, I'm Aleks</h1>
-            <div className="skills-container">
-              <div className="form-contents pbox">
-                <p className="heading-registration">
-                  After completing my studies in Information Technology at
-                  UniSA, I developed a solid foundation of knowledge that
-                  sharpened my problem-solving, critical thinking, analytical,
-                  and development abilities. Through self-directed learning, I
-                  focused on gaining expertise in diverse web/cloud
-                  technologies.
-                </p>
-              </div>
-              <div className="form-contents pbox">
-                <p className="heading-registration">
-                  Additionally, I gained valuable experience in IT and
-                  customer-service roles at renowned companies like Datacom,
-                  Hewlett Packard Enterprise, and iiNet. These positions
-                  enhanced my communication and teamwork abilities while
-                  exposing me to modern IT systems, procedures, and standards.
-                </p>
-              </div>
+
+            <div className="form-contents pbox">
+              <p className="heading-registration">
+                After completing my studies in Information Technology at UniSA,
+                I developed a solid foundation of knowledge that sharpened my
+                problem-solving, critical thinking, analytical, and development
+                abilities. Through self-directed learning, I focused on gaining
+                expertise in diverse web/cloud technologies.
+              </p>
+            </div>
+            <div className="form-contents pbox">
+              <p className="heading-registration">
+                Additionally, I gained valuable experience in IT and
+                customer-service roles at renowned companies like Datacom,
+                Hewlett Packard Enterprise, and iiNet. These positions enhanced
+                my communication and teamwork abilities while exposing me to
+                modern IT systems, procedures, and standards.
+              </p>
             </div>
           </div>
           <div className="skills-container skills-container2">
