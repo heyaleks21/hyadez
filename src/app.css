@@ -3,7 +3,7 @@
 :root {
   --global-text-color: #d7dadc;
   --main-color1: #505050;
-
+  --website-background: #292929;
   --main-color2: #d7dadc;
   --main-color3: #1a1a1b;
   /* opacity */
@@ -20,7 +20,7 @@
   outline: 0;
 }
 body {
-  background-color: var(--main-color1);
+  background-color: var(--website-background);
 }
 h1 {
   color: var(--main-color1);
