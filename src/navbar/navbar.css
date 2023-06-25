@@ -76,13 +76,12 @@ a {
   .nav_menu ul {
     border: 1px solid var(--main-color5);
     position: absolute;
-    top: 68px;
+    top: 71px;
     border-radius: 5px;
     left: 0;
     flex-direction: column;
     width: 100%;
     background-color: var(--main-color3);
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   }
   .nav_menu li {
     text-align: center;
