@@ -4,9 +4,6 @@
   align-items: center;
   justify-content: center;
 }
-.h2heading {
-  margin-bottom: 0.4em;
-}
 .skills-heading {
   padding: 0.25em;
   text-align: center;
@@ -23,7 +20,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1em;
 }
 .skills-list-container {
   margin-top: 2em;

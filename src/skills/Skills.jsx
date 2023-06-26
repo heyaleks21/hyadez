@@ -3,7 +3,7 @@ import "./skills.css";
 const Skills = () => {
   return (
     <>
-      <div className="skillsbox">
+      <div className="firstbox">
         <div className="box2">
           <div className="form-body">
             <h1 className="skills-heading">Welcome to Hyadez</h1>
