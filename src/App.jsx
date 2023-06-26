@@ -8,9 +8,11 @@ function App() {
   return (
     <>
       <Navbar />
+      <div className="undernavdiv"></div>
       <Skills />
       <Contact />
       <Techstack />
+      <div className="bottompagediv"></div>
     </>
   );
 }

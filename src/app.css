@@ -37,6 +37,15 @@ a {
   text-decoration: none;
   text-align: center;
 }
+.bottompagediv {
+  padding-bottom: 90px;
+}
+.undernavdiv {
+  padding-bottom: 170px;
+}
+.undernavpage {
+  padding-bottom: 130px;
+}
 @keyframes example {
   0% {
     color: var(--main-color2);

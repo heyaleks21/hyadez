@@ -47,6 +47,7 @@ const Mediform = () => {
   return (
     <>
       <Navbar />
+      <div className="undernavpage"></div>
       <div className="secondbox">
         <form className="form" onSubmit={handleSubmit(onSubmit)}>
           <div className="form-body">

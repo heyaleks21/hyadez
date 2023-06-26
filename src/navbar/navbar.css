@@ -20,7 +20,6 @@ a:visited {
   color: var(--global-text-color);
 }
 .navbar-container {
-  padding-bottom: 170px;
 }
 .navbar {
   height: 70px;
