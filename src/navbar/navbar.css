@@ -1,14 +1,23 @@
 .navlinks:visited {
   color: var(--main-color2);
+  opacity: 100%;
 }
 .navlinks:hover {
   color: var(--spicy-color);
+  opacity: 100%;
 }
 .nav_circle:hover {
   opacity: 50%;
 }
 a {
-  color: var(--spicy-color);
+  color: var(--global-text-color);
+}
+a:hover {
+  color: var(--global-text-color);
+  opacity: 50%;
+}
+a:visited {
+  color: var(--global-text-color);
 }
 .navbar-container {
   padding-bottom: 120px;
