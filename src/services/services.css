@@ -22,13 +22,25 @@
   border: 1px solid var(--main-color5);
   min-width: 200px;
   min-height: 200px;
+  animation-duration: 0.5s;
+  transform-origin: bottom;
 }
 
 .services-boxes:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
   background-color: var(--spicy-color);
   color: var(--main-color3);
 }
-
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
 .cards {
   text-align: center;
   max-width: 200px;
