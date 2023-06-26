@@ -12,6 +12,7 @@
 a {
   color: var(--global-text-color);
 }
+
 a:hover {
   color: var(--global-text-color);
   opacity: 50%;
@@ -26,7 +27,6 @@ a:visited {
   align-items: center;
   justify-content: center;
   position: fixed;
-  border-radius: 5px;
   background-color: var(--main-color3);
   border: 1px solid var(--main-color5);
 }
@@ -34,7 +34,7 @@ a:visited {
   display: flex;
 }
 .brand-svg {
-  width: 75px;
+  width: 45px;
   margin-left: 1em;
 }
 .brand-group {
@@ -44,11 +44,8 @@ a:visited {
   flex-wrap: wrap;
 }
 .brand_name {
-  margin-left: 0.6em;
+  margin-left: 0.4em;
   color: var(--main-color2);
-  animation-name: example;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
 }
 .nav_menu {
   margin-left: auto;
