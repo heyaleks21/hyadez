@@ -16,10 +16,8 @@ const Skills = () => {
                 Based in the vibrant city of Adelaide, South Australia, Hyadez
                 offers exceptional freelance software development services
                 tailored to meet your unique business needs. With a wealth of
-                experience and a proven track record, our team has worked with
-                renowned companies such as Datacom, iiNet, and Hewlett Packard,
-                delivering cutting-edge solutions that drive growth and
-                efficiency.
+                experience, our team delivers cutting-edge solutions that drive
+                growth and efficiency.
               </p>
             </div>
             <div className="form-contents pbox">
