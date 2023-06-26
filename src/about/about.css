@@ -10,7 +10,7 @@
   color: var(--global-text-color);
 }
 .background-image {
-  background-image: url("./public/app-photo.jpg");
+  background-image: url("/static/images/app-photo.jpg");
   background-position: center;
   height: 500px;
   border: 1px solid var(--main-color5);
