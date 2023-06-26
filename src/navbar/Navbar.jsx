@@ -39,9 +39,6 @@ function Navbar() {
                 <a href="/medform">Med Form</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
-              </li>
-              <li>
                 <a href="/account">Dashboard</a>
               </li>
             </ul>
