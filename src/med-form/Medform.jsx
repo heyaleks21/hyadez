@@ -47,7 +47,7 @@ const Mediform = () => {
   return (
     <>
       <Navbar />
-      <div className="firstbox">
+      <div className="secondbox">
         <form className="form" onSubmit={handleSubmit(onSubmit)}>
           <div className="form-body">
             <h2 className="heading-registration">Patient Notes</h2>
