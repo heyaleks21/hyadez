@@ -66,6 +66,7 @@
   background-color: var(--main-color1);
   color: var(--main-color2);
   padding: 0 7px 2px 7px;
+  cursor: pointer;
   border: 1px solid var(--main-color5);
 }
 .btn:hover {

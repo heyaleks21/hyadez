@@ -19,8 +19,6 @@ a:hover {
 a:visited {
   color: var(--global-text-color);
 }
-.navbar-container {
-}
 .navbar {
   height: 70px;
   width: 100%;

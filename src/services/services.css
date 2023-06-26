@@ -1,0 +1,43 @@
+.services {
+  padding: 5em 5em;
+}
+
+.services-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.services-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--global-text-color);
+  background-color: var(--main-color4);
+  border-radius: 5px;
+  border: 1px solid var(--main-color5);
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.services-boxes:hover {
+  opacity: 100%;
+  background-color: var(--spicy-color1);
+  color: var(--main-color3);
+}
+
+.cards {
+  text-align: center;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.services-background {
+  background-color: var(--main-color3);
+  border: 1px solid var(--main-color5);
+}

@@ -10,8 +10,10 @@
   --main-color4: #252527;
   --main-color5: #aaaaaa4b;
   --main-color8: #505050b9;
+  --main-color9: #0099ff;
 
-  --spicy-color: rgb(255, 51, 0);
+  --spicy-color: rgb(255, 83, 41);
+  --spicy-color1: rgba(255, 84, 41, 0.548);
 }
 * {
   animation: pageTransition 1s;
@@ -44,7 +46,7 @@ a {
   padding-bottom: 37px;
 }
 .undernavdiv {
-  padding-bottom: 117px;
+  padding-bottom: 70px;
 }
 .undernavpage {
   padding-bottom: 130px;

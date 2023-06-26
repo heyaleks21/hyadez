@@ -9,9 +9,6 @@ import { AuthProvider } from "./AuthContext";
 import { useState, useEffect } from "react";
 import { auth } from "./firebase";
 import { onAuthStateChanged } from "firebase/auth";
-import Mediform from "./med-form/Medform";
-import Todolist from "./todolist/Todolist";
-import Resume from "./resume/Resume";
 
 const RouteSwitch = () => {
   const [currentUser, setCurrentUser] = useState(null);
@@ -45,14 +42,6 @@ const RouteSwitch = () => {
             }
           />
           <Route
-            path="/medform"
-            element={
-              <div className="bigbox">
-                <Mediform />
-              </div>
-            }
-          />
-          <Route
             path="/registration"
             element={
               <div className="bigbox">
@@ -65,22 +54,6 @@ const RouteSwitch = () => {
             element={
               <div className="bigbox">
                 <Login />
-              </div>
-            }
-          />
-          <Route
-            path="/todolist"
-            element={
-              <div className="bigbox">
-                <Todolist />
-              </div>
-            }
-          />
-          <Route
-            path="/resume"
-            element={
-              <div className="bigbox">
-                <Resume />
               </div>
             }
           />

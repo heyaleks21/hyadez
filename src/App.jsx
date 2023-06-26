@@ -1,15 +1,18 @@
 import "./app.css";
 import Navbar from "./navbar/Navbar.jsx";
-import Skills from "./skills/Skills.jsx";
+import About from "./about/About.jsx";
 import Contact from "./contact-form/Contact.jsx";
+import Services from "./services/Services";
 
 function App() {
   return (
     <>
       <Navbar />
       <div className="undernavdiv"></div>
-      <Skills />
+      <About />
+
       <Contact />
+      <Services />
       <div className="bottompagediv"></div>
     </>
   );
