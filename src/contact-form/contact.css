@@ -14,6 +14,9 @@
   border-radius: 5px;
   padding: 0 3px;
 }
+.submit-form input {
+  margin-bottom: 4px;
+}
 /* NEED TO CHANGE / IMPORT MODULE.CSS */
 input,
 textarea {
