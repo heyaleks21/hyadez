@@ -30,8 +30,21 @@ a:visited {
   background-color: var(--main-color3);
   border: 1px solid var(--main-color5);
 }
-.brand_name {
+.brand-group-top {
+  display: flex;
+}
+.brand-svg {
+  width: 75px;
   margin-left: 1em;
+}
+.brand-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.brand_name {
+  margin-left: 0.6em;
   color: var(--main-color2);
   animation-name: example;
   animation-duration: 7s;

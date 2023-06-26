@@ -1,14 +1,22 @@
 import { useState } from "react";
 import "./navbar.css";
+
 function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <>
       <div className="navbar-container">
         <nav className="navbar">
-          <a href="/">
-            <h1 className="brand_name">Hyadez</h1>
-          </a>
+          <div>
+            <a href="/" className="brand-group-top">
+              <img
+                src="/static/images/brand-logo.svg"
+                className="brand-group brand-svg"
+              ></img>
+              <h1 className="brand_name brand-group">Hyadez</h1>
+            </a>
+          </div>
+
           <button
             className="nav_circle"
             onClick={() => {

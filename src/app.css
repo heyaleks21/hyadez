@@ -16,7 +16,6 @@
   --spicy-color1: rgba(255, 84, 41, 0.548);
 }
 * {
-  animation: pageTransition 1s;
   font-family: "Kanit", sans-serif;
   margin: 0;
   padding: 0;
@@ -50,26 +49,4 @@ a {
 }
 .undernavpage {
   padding-bottom: 130px;
-}
-@keyframes example {
-  0% {
-    color: var(--main-color2);
-  }
-  25% {
-    color: var(--spicy-color);
-  }
-  50% {
-    color: var(--spicy-color);
-  }
-  100% {
-    color: var(--main-color2);
-  }
-}
-@keyframes pageTransition {
-  from {
-    opacity: 0.9;
-  }
-  to {
-    opacity: 1;
-  }
 }
