@@ -8,8 +8,8 @@
   gap: 5px;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   position: relative;
+  cursor: default;
 }
 
 .services-boxes {
@@ -26,7 +26,6 @@
 }
 
 .services-boxes:hover {
-  opacity: 100%;
   background-color: var(--spicy-color1);
   color: var(--main-color3);
 }
