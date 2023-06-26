@@ -10,10 +10,12 @@ function App() {
       <Navbar />
       <div className="undernavdiv"></div>
       <About />
-
-      <Contact />
       <Services />
+      <Contact />
       <div className="bottompagediv"></div>
+      <div className="footercontainer">
+        <div className="brandnamefooter">Hyadez 2023 ©</div>
+      </div>
     </>
   );
 }
