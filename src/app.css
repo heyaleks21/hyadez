@@ -43,10 +43,10 @@ a {
     color: var(--main-color2);
   }
   50% {
-    color: var(--main-color1);
+    color: var(--main-color2);
   }
   100% {
-    color: var(--main-color2);
+    color: var(--main-color1);
   }
 }
 @keyframes pageTransition {
