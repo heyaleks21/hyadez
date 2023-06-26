@@ -33,16 +33,6 @@ function Navbar() {
           <div className={isNavExpanded ? "nav_menu expanded" : "nav_menu"}>
             <ul>
               <li>
-                <a className="navlinks" href="/todolist">
-                  To-Do List
-                </a>
-              </li>
-              <li>
-                <a className="navlinks" href="/medform">
-                  Med Form
-                </a>
-              </li>
-              <li>
                 <a className="navlinks" href="/account">
                   Dashboard
                 </a>

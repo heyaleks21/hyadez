@@ -21,8 +21,11 @@
   border: 0;
   outline: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background-color: var(--website-background);
+  background: var(--website-background);
 }
 h1 {
   color: var(--main-color1);
@@ -38,10 +41,10 @@ a {
   text-align: center;
 }
 .bottompagediv {
-  padding-bottom: 90px;
+  padding-bottom: 37px;
 }
 .undernavdiv {
-  padding-bottom: 170px;
+  padding-bottom: 117px;
 }
 .undernavpage {
   padding-bottom: 130px;
