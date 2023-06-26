@@ -7,7 +7,9 @@ const Skills = () => {
         <div className="box2">
           <div className="form-body">
             <h1 className="skills-heading">Welcome to Hyadez</h1>
-            <h2 className="skills-heading">Software Development Services</h2>
+            <h2 className="skills-heading h2heading">
+              Software Development Services
+            </h2>
 
             <div className="form-contents pbox">
               <p className="heading-registration">

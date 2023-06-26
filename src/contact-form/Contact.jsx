@@ -1,29 +1,13 @@
 import { useState } from "react";
 import "./contact.css";
 import Navbar from "../navbar/Navbar";
+import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
-  const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-  };
+  const [state, handleSubmit] = useForm("meqbjadw");
+  if (state.succeeded) {
+    return <p>Message sent! We will be in touch.</p>;
+  }
   return (
     <>
       <div className="secondbox">
@@ -42,7 +26,9 @@ const Contact = () => {
               required="yes"
               id="name"
             />
-            <label className="contact-vars">Email</label>
+            <label className="contact-vars" htmlFor="email">
+              Email
+            </label>
             <input
               className="contact-input"
               type="email"
@@ -68,8 +54,13 @@ const Contact = () => {
               id="message"
             />
             <div className="footer footer2">
-              <button className="btn" type="submit" name="name">
-                {status}
+              <button
+                className="btn"
+                type="submit"
+                name="name"
+                disabled={state.submitting}
+              >
+                Send
               </button>
             </div>
           </form>
