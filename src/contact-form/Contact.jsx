@@ -2,7 +2,13 @@ import { useState } from "react";
 import "./contact.css";
 import { useForm, ValidationError } from "@formspree/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fa1, fa2, fa3, fa4 } from "@fortawesome/free-solid-svg-icons";
+import {
+  fa1,
+  fa2,
+  fa3,
+  fa4,
+  faSquarePhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   const [formSent, setFormSent] = useState("Send");
@@ -32,6 +38,9 @@ const Contact = () => {
                 <div className="contactindividuals">
                   <FontAwesomeIcon icon={fa4} /> Our expert strategist presents
                   project estimates and approximate timelines.
+                </div>
+                <div className="contactindividuals">
+                  <FontAwesomeIcon icon={faSquarePhone} /> 0498 256 447
                 </div>
               </div>
             </form>
@@ -116,6 +125,9 @@ const Contact = () => {
                 <div className="contactindividuals">
                   <FontAwesomeIcon icon={fa4} /> Our expert strategist presents
                   project estimates and approximate timelines.
+                </div>
+                <div className="contactindividuals">
+                  <FontAwesomeIcon icon={faSquarePhone} /> 0498 256 447
                 </div>
               </div>
             </form>
