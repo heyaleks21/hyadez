@@ -80,8 +80,8 @@ const Contact = () => {
               <h2 className="heading1">What happens next</h2>
               <div className="happenscontents">
                 <div className="contactindividuals">
-                  <FontAwesomeIcon icon={fa1} /> Our sales team reaches you
-                  within a few hours to organise a FREE consultation.
+                  <FontAwesomeIcon icon={fa1} /> A member of our team reaches
+                  out within a few hours to organise a FREE consultation.
                 </div>
                 <div className="contactindividuals">
                   <FontAwesomeIcon icon={fa2} /> Meanwhile, we sign an NDA to
