@@ -26,3 +26,11 @@ textarea {
 .submit-button:hover {
   opacity: 50%;
 }
+.contactindividuals {
+  padding: 0.5em;
+}
+
+.happenscontents {
+  text-align: center;
+  color: var(--main-color2);
+}

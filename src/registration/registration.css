@@ -5,6 +5,15 @@
   height: 60vh;
 } */
 
+.firstbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.boxbox {
+  width: 400px;
+}
 .secondbox {
   display: flex;
   align-items: center;
