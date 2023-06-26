@@ -7,7 +7,7 @@ function Navbar() {
       <div className="navbar-container">
         <nav className="navbar">
           <a href="/">
-            <h1 className="brand_name">Aleks Manevski</h1>
+            <h1 className="brand_name">Hyadez</h1>
           </a>
           <button
             className="nav_circle"
@@ -32,9 +32,6 @@ function Navbar() {
           </button>
           <div className={isNavExpanded ? "nav_menu expanded" : "nav_menu"}>
             <ul>
-              <li>
-                <a href="/resume">Aleks' Resume</a>
-              </li>
               <li>
                 <a href="/todolist">To-do List</a>
               </li>

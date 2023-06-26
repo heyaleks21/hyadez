@@ -26,7 +26,6 @@ const Contact = () => {
   };
   return (
     <>
-      <Navbar />
       <div className="secondbox">
         <div className="form">
           <form

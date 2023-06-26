@@ -6,24 +6,27 @@ const Skills = () => {
       <div className="skillsbox">
         <div className="box2">
           <div className="form-body">
-            <h1 className="skills-heading">Hello There, I'm Aleks</h1>
+            <h1 className="skills-heading">Welcome to Hyadez</h1>
+            <h2 className="skills-heading">Software Development Services</h2>
 
             <div className="form-contents pbox">
               <p className="heading-registration">
-                After completing my studies in Information Technology at UniSA,
-                I developed a solid foundation of knowledge that sharpened my
-                problem-solving, critical thinking, analytical, and development
-                abilities. Through self-directed learning, I focused on gaining
-                expertise in diverse web/cloud technologies.
+                Based in the vibrant city of Adelaide, South Australia, Hyadez
+                offers exceptional freelance software development services
+                tailored to meet your unique business needs. With a wealth of
+                experience and a proven track record, our team has worked with
+                renowned companies such as Datacom, iiNet, and Hewlett Packard,
+                delivering cutting-edge solutions that drive growth and
+                efficiency.
               </p>
             </div>
             <div className="form-contents pbox">
               <p className="heading-registration">
-                Additionally, I gained valuable experience in IT and
-                customer-service roles at renowned companies like Datacom,
-                Hewlett Packard Enterprise, and iiNet. These positions enhanced
-                my communication and teamwork abilities while exposing me to
-                modern IT systems, procedures, and standards.
+                At Hyadez, we specialize in creating robust, scalable, and
+                user-friendly software solutions that empower businesses to
+                thrive in the digital landscape. Whether you need a web
+                application, mobile app, or custom software, our experienced
+                team has the expertise to turn your vision into a reality.
               </p>
             </div>
           </div>
@@ -31,7 +34,7 @@ const Skills = () => {
             <div className="skills-list-container">
               <ul className="skills-uls">
                 <div className="skills-title-container">
-                  <h3 className="skills-title skills-headings">MY SKILLS</h3>
+                  <h3 className="skills-title skills-headings">TECH STACK</h3>
                 </div>
                 <h4 className="front-end-title skills-headings">
                   FRONT-END DEVELOPMENT
