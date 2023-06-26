@@ -27,11 +27,9 @@
 }
 
 .services-boxes:hover {
-  animation-name: bounce;
+  animation-name: bounce, colorshift, textshift;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
-  background-color: var(--spicy-color);
-  color: var(--main-color3);
 }
 @keyframes bounce {
   0% {
@@ -39,6 +37,22 @@
   }
   100% {
     transform: translateY(-50px);
+  }
+}
+@keyframes colorshift {
+  0% {
+    background-color: var(--main-color4);
+  }
+  100% {
+    background-color: var(--spicy-color);
+  }
+}
+@keyframes textshift {
+  0% {
+    color: var(--global-text-color);
+  }
+  100% {
+    color: var(--main-color3);
   }
 }
 .cards {
