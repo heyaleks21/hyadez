@@ -12,6 +12,13 @@
   align-items: center;
   padding: 5em 0;
 }
+.firstboxcontact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 0;
+}
 .boxbox {
   width: 400px;
 }
@@ -86,7 +93,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .firstbox {
+  .firstboxcontact {
     flex-direction: column;
   }
 }

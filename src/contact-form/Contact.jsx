@@ -15,7 +15,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("meqbjadw");
   if (state.succeeded) {
     return (
-      <div className="firstbox">
+      <div className="firstboxcontact">
         <div className="secondbox boxbox">
           <div className="form">
             <form className="submit-form form-body">
@@ -51,7 +51,7 @@ const Contact = () => {
   }
   return (
     <>
-      <div className="firstbox">
+      <div className="firstboxcontact">
         <div className="secondbox">
           <div className="form">
             <form
