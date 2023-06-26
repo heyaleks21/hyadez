@@ -29,7 +29,10 @@ textarea {
   padding: 0.5em;
 }
 
-.happenscontents {
+.contactindividuals {
+  color: var(--global-text-color);
   text-align: center;
-  color: var(--main-color2);
+}
+svg {
+  color: var(--spicy-color);
 }

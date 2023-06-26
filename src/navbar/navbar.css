@@ -60,7 +60,7 @@ a {
   right: 25px;
   transform: translateY(-50%);
   display: none;
-  background-color: var(--main-color2);
+  background-color: var(--spicy-color);
 }
 @media screen and (max-width: 1000px) {
   .nav_circle {
