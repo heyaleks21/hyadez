@@ -1,14 +1,14 @@
-a:visited {
+.navlinks:visited {
   color: var(--main-color2);
 }
-a:hover {
-  color: var(--main-color1);
+.navlinks:hover {
+  color: var(--spicy-color);
 }
 .nav_circle:hover {
   opacity: 50%;
 }
 a {
-  color: var(--main-color2);
+  color: var(--spicy-color);
 }
 .navbar-container {
   padding-bottom: 120px;
@@ -86,9 +86,6 @@ a {
   .nav_menu li {
     text-align: center;
     margin: 0;
-  }
-  .nav_menu li a:hover {
-    background-color: var(--main-color4);
   }
   .nav_menu li a {
     color: var(--global-text-color);

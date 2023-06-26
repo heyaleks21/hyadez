@@ -10,6 +10,8 @@
   --main-color4: #252527;
   --main-color5: #aaaaaa4b;
   --main-color8: #505050b9;
+
+  --spicy-color: rgb(255, 51, 0);
 }
 * {
   animation: pageTransition 1s;
@@ -37,16 +39,16 @@ a {
 }
 @keyframes example {
   0% {
-    color: var(--main-color1);
+    color: var(--main-color2);
   }
   25% {
-    color: var(--main-color2);
+    color: var(--spicy-color);
   }
   50% {
-    color: var(--main-color2);
+    color: var(--spicy-color);
   }
   100% {
-    color: var(--main-color1);
+    color: var(--main-color2);
   }
 }
 @keyframes pageTransition {
