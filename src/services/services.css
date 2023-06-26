@@ -12,12 +12,13 @@
 }
 
 .services-boxes {
+  animation: bounceout, colorshiftout, textshifout;
+  background-color: var(--main-color4);
+  animation-duration: 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  color: var(--global-text-color);
-  background-color: var(--main-color4);
   border-radius: 5px;
   border: 1px solid var(--main-color5);
   min-width: 200px;
@@ -27,11 +28,11 @@
 }
 
 .services-boxes:hover {
-  animation-name: bounce, colorshift, textshift;
+  animation-name: bouncein, colorshiftin, textshiftin;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
-@keyframes bounce {
+@keyframes bouncein {
   0% {
     transform: translateY(0);
   }
@@ -39,7 +40,15 @@
     transform: translateY(-50px);
   }
 }
-@keyframes colorshift {
+@keyframes bounceout {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes colorshiftin {
   0% {
     background-color: var(--main-color4);
   }
@@ -47,12 +56,28 @@
     background-color: var(--spicy-color);
   }
 }
-@keyframes textshift {
+@keyframes colorshiftout {
+  from {
+    background-color: var(--spicy-color);
+  }
+  to {
+    background-color: var(--main-color4);
+  }
+}
+@keyframes textshiftin {
   0% {
     color: var(--global-text-color);
   }
   100% {
     color: var(--main-color3);
+  }
+}
+@keyframes textshiftout {
+  from {
+    color: var(--main-color3);
+  }
+  to {
+    color: var(--global-text-color);
   }
 }
 .cards {
