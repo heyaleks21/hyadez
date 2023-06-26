@@ -6,15 +6,9 @@ import Contact from "./contact-form/Contact.jsx";
 function App() {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
-      <div>
-        <Skills />
-      </div>
-      <div>
-        <Contact />
-      </div>
+      <Navbar />
+      <Skills />
+      <Contact />
     </>
   );
 }
