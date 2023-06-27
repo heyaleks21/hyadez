@@ -13,11 +13,10 @@ const About = () => {
 
             <div className="form-contents pbox">
               <p className="heading-registration">
-                Based in the vibrant city of Adelaide, South Australia, Hyadez
-                offers exceptional freelance software development services
-                tailored to meet your unique business needs. With a wealth of
-                experience, our team delivers cutting-edge solutions that drive
-                growth and efficiency.
+                Based in Australia, Hyadez offers exceptional freelance software
+                development services tailored to meet your unique business
+                needs. With a wealth of experience, our team delivers
+                cutting-edge solutions that drive growth and efficiency.
               </p>
             </div>
             <div className="form-contents pbox">
