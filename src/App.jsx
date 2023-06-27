@@ -12,7 +12,6 @@ function App() {
       <About />
       <Services />
       <Contact />
-      <div className="bottompagediv"></div>
       <div className="footercontainer">
         <div className="brandnamefooter">© Hyadez</div>
       </div>
