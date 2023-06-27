@@ -59,4 +59,5 @@ a {
   background-color: var(--main-color3);
 }
 .brandnamefooter {
+  color: var(--global-text-color);
 }
