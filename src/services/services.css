@@ -15,7 +15,7 @@
   color: var(--global-text-color);
   animation: bounceout, colorshiftout;
   background-color: var(--main-color4);
-  animation-duration: 1.2s;
+  animation-duration: 1s;
   display: flex;
   justify-content: center;
   align-items: center;
