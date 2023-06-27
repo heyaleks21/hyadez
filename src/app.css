@@ -57,6 +57,8 @@ a {
   width: 100%;
   height: 70px;
   background-color: var(--main-color3);
+  border-top: 1px solid var(--main-color5);
+  border-bottom: 1px solid var(--main-color5);
 }
 .brandnamefooter {
   color: var(--global-text-color);
