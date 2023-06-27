@@ -25,7 +25,7 @@
   z-index: 0;
   transform-origin: bottom;
   animation: bounceout, colorshiftout;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
 }
 
 .services-boxes:hover,
