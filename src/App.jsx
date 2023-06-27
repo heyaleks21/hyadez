@@ -14,7 +14,7 @@ function App() {
       <Contact />
       <div className="bottompagediv"></div>
       <div className="footercontainer">
-        <div className="brandnamefooter">Hyadez 2023 ©</div>
+        <div className="brandnamefooter">© Hyadez</div>
       </div>
     </>
   );
