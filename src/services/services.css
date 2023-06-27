@@ -15,7 +15,7 @@
   color: var(--global-text-color);
   animation: bounceout, colorshiftout;
   background-color: var(--main-color4);
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,9 +34,6 @@
   animation-fill-mode: forwards;
 }
 @keyframes bouncein {
-  0% {
-    transform: translateY(0);
-  }
   100% {
     transform: translateY(-50px);
   }
