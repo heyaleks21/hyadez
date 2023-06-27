@@ -25,6 +25,7 @@
   min-width: 200px;
   min-height: 200px;
   transform-origin: bottom;
+  z-index: 0;
 }
 
 .services-boxes:hover {

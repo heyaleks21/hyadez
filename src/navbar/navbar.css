@@ -21,6 +21,7 @@ a:visited {
   color: var(--global-text-color);
 }
 .navbar {
+  z-index: 1;
   height: 70px;
   width: 100%;
   display: flex;
