@@ -12,8 +12,20 @@
 .background-image {
   background-image: url("/static/images/app-photo.jpg");
   background-position: center;
+  background-size: 400%;
+  background-repeat: no-repeat;
+  animation-name: scale-in;
+  animation-duration: 2s;
   height: 500px;
   border: 1px solid var(--main-color5);
+}
+@keyframes scale-in {
+  0% {
+    background-size: 300%;
+  }
+  100% {
+    background-size: 400%;
+  }
 }
 .box2 {
   width: 600px;
