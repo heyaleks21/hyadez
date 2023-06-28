@@ -9,6 +9,10 @@
   text-align: center;
   color: var(--global-text-color);
 }
+
+.about-logo {
+  width: 45px;
+}
 .background-image {
   background-image: url("/static/images/app-photo.jpg");
   background-position-x: 45%;

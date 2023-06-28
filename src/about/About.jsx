@@ -6,10 +6,14 @@ const About = () => {
       <div className="firstbox background-image">
         <div className="box2">
           <div className="form-body">
-            <h1 className="skills-heading">Welcome to Hyadez</h1>
-            <h2 className="skills-heading h2heading">
-              Software Development Services
-            </h2>
+            <h1 className="skills-heading">
+              Hyadez{" "}
+              <img
+                className="about-logo"
+                src="/static/images/brand-logo.svg"
+              ></img>{" "}
+              Web Development
+            </h1>
 
             <div className="form-contents pbox">
               <p className="heading-registration">
