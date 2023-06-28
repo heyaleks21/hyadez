@@ -47,7 +47,7 @@
   animation-duration: 0.7s;
 }
 .s2 {
-  animation: bot-section-drop-down;
+  animation: top-section-drop-down;
   animation-duration: 0.7s;
 }
 .s1:hover,
@@ -58,7 +58,7 @@
 }
 .s2:hover,
 .s12:focus {
-  animation-name: bot-section-bounce-up;
+  animation-name: top-section-bounce-up;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
