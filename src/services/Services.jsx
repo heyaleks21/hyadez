@@ -31,7 +31,7 @@ const Services = () => {
 
         <div className="services-body">
           <div
-            className="services-boxes"
+            className="services-boxes s1"
             onMouseEnter={() =>
               setIsShown1(
                 "Stunning and intuitive websites tailored to your brand and audience."
@@ -43,7 +43,7 @@ const Services = () => {
             {isShown1 && <div className="cards">{isShown1}</div>}
           </div>
           <div
-            className="services-boxes"
+            className="services-boxes s1"
             onMouseEnter={() =>
               setIsShown2(
                 "Create a memorable brand identity that reflects your values and resonates with your target market."
@@ -55,7 +55,7 @@ const Services = () => {
             {isShown2 && <div className="cards">{isShown2}</div>}
           </div>
           <div
-            className="services-boxes"
+            className="services-boxes s1"
             onMouseEnter={() =>
               setIsShown3(
                 "Reliable and secure hosting solutions to keep your website running smoothly and efficiently."
@@ -67,7 +67,7 @@ const Services = () => {
             {isShown3 && <div className="cards">{isShown3}</div>}
           </div>
           <div
-            className="services-boxes"
+            className="services-boxes s1"
             onMouseEnter={() =>
               setIsShown4(
                 "Boost your online visibility and drive organic traffic with proven search engine optimization strategies."
@@ -79,7 +79,7 @@ const Services = () => {
             {isShown4 && <div className="cards">{isShown4}</div>}
           </div>
           <div
-            className="services-boxes"
+            className="services-boxes s2"
             onMouseEnter={() =>
               setIsShown5(
                 "Gain valuable insights into your website's performance and user behavior to make data-driven decisions."
@@ -91,7 +91,7 @@ const Services = () => {
             {isShown5 && <div className="cards">{isShown5}</div>}
           </div>
           <div
-            className="services-boxes"
+            className="services-boxes s2"
             onMouseEnter={() =>
               setIsShown6(
                 "Engaging and compelling content that captivates your audience and drives conversions."
@@ -103,7 +103,7 @@ const Services = () => {
             {isShown6 && <div className="cards">{isShown6}</div>}
           </div>
           <div
-            className="services-boxes"
+            className="services-boxes s2"
             onMouseEnter={() =>
               setIsShown7(
                 "Strategic digital marketing campaigns to amplify your online presence and reach your target customers."
@@ -115,7 +115,7 @@ const Services = () => {
             {isShown7 && <div className="cards">{isShown7}</div>}
           </div>
           <div
-            className="services-boxes"
+            className="services-boxes s2"
             onMouseEnter={() =>
               setIsShown8(
                 "High-quality visuals that showcase your products in the best light, enticing customers to make a purchase."

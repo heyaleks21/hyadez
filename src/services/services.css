@@ -39,16 +39,28 @@
   min-height: 215px;
   z-index: 0;
   transform-origin: bottom;
-  animation: bounceout;
+}
+.s1 {
+  animation: top-section-drop-down;
   animation-duration: 0.7s;
 }
-.services-boxes:hover,
-.services-boxes:focus {
-  animation-name: bouncein;
+.s2 {
+  animation: bot-section-drop-down;
+  animation-duration: 0.7s;
+}
+.s1:hover,
+.s1:focus {
+  animation-name: top-section-bounce-up;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
-@keyframes bouncein {
+.s2:hover,
+.s12:focus {
+  animation-name: bot-section-bounce-up;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes top-section-bounce-up {
   from {
     transform: translateY(0);
   }
@@ -56,9 +68,25 @@
     transform: translateY(-50px);
   }
 }
-@keyframes bounceout {
+@keyframes top-section-drop-down {
   from {
     transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes bot-section-bounce-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
+@keyframes bot-section-drop-down {
+  from {
+    transform: translateY(50px);
   }
   to {
     transform: translateY(0);
