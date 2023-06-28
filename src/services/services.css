@@ -19,12 +19,12 @@
   flex-wrap: wrap;
   border-radius: 5px;
   border: 1px solid var(--main-color5);
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 215px;
+  min-height: 215px;
   z-index: 0;
   transform-origin: bottom;
   animation: bounceout, colorshiftout;
-  animation-duration: 0.4s;
+  animation-duration: 0.5s;
 }
 
 .services-boxes:hover,
