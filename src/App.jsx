@@ -4,6 +4,7 @@ import About from "./about/About.jsx";
 import Contact from "./contact-form/Contact.jsx";
 import Services from "./services/Services.jsx";
 import ImageSlider from "./imageslider/ImageSlider.jsx";
+import Brands from "./brands/Brands";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Navbar />
       <div className="undernavdiv"></div>
       <About />
-
+      <Brands />
       <Services />
       <Contact />
       <ImageSlider />

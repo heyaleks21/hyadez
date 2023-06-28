@@ -12,7 +12,7 @@
 
 .services-boxes {
   color: var(--global-text-color);
-  background-color: var(--main-color4);
+  background-color: var(--main-color5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@
 }
 @keyframes colorshiftin {
   0% {
-    background-color: var(--main-color4);
+    background-color: var(--main-color5);
   }
   100% {
     background-color: var(--spicy-color);
@@ -62,7 +62,7 @@
     background-color: var(--spicy-color);
   }
   to {
-    background-color: var(--main-color4);
+    background-color: var(--main-color5);
   }
 }
 
