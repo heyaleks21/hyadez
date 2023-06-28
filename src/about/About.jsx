@@ -7,12 +7,11 @@ const About = () => {
         <div className="box2">
           <div className="form-body">
             <h1 className="skills-heading">
-              Hyadez{" "}
               <img
                 className="about-logo"
                 src="/static/images/brand-logo.svg"
               ></img>{" "}
-              Web Development
+              Hyadez Web Development
             </h1>
 
             <div className="form-contents pbox">
