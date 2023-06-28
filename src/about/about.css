@@ -21,7 +21,7 @@
   justify-content: center;
 }
 .about-logo:hover {
-  transform: scale(125%);
+  transform: scale(135%);
 }
 .background-image {
   background-image: url("/static/images/app-photo.jpg");
