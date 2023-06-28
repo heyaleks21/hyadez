@@ -16,7 +16,7 @@ const Services = () => {
       <div className="services services-background">
         <div className="services-body">
           <div
-            className="services-boxes"
+            className="services-boxes s1"
             onMouseEnter={() =>
               setIsShown1(
                 "Stunning and intuitive websites tailored to your unique brand and audience."

@@ -1,0 +1,24 @@
+.carousel-background {
+  background-color: var(--main-color3);
+  padding: 5em 0;
+  border-top: 1px solid var(--main-color5);
+  border-left: 1px solid var(--main-color5);
+  border-right: 1px solid var(--main-color5);
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-carousel {
+  display: flex;
+  overflow: hidden;
+  margin: 0 0.5em;
+  max-height: 400px;
+  max-width: 600px;
+  border-radius: 5%;
+  border: 1px solid var(--main-color5);
+}

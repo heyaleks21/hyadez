@@ -56,7 +56,7 @@ a {
   align-items: center;
   width: 100%;
   height: 70px;
-  background-color: var(--main-color3);
+  background-color: var(--main-color6);
   border-top: 1px solid var(--main-color5);
   border-bottom: 1px solid var(--main-color5);
 }
