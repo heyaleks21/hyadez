@@ -5,11 +5,6 @@
   border-top: 1px solid var(--main-color5);
   border-right: 1px solid var(--main-color5);
 }
-.partners {
-  text-align: center;
-  color: var(--main-color2);
-  padding-bottom: 1em;
-}
 .imgs {
   max-width: 30px;
   padding: 1em;

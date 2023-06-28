@@ -9,7 +9,11 @@
   align-items: center;
   cursor: default;
 }
-
+.partners {
+  text-align: center;
+  color: var(--main-color2);
+  padding-bottom: 1em;
+}
 .services-boxes {
   color: var(--global-text-color);
 

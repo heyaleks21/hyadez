@@ -23,6 +23,7 @@ const Services = () => {
   return (
     <>
       <div className="services services-background">
+        <h1 className="partners">Our Strategy</h1>
         <div className="services-body">
           <div
             className="services-boxes s1"
