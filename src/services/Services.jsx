@@ -31,16 +31,16 @@ const Services = () => {
 
         <div className="services-body">
           <div
-            className="services-boxes s1"
+            className="services-boxes"
             onMouseEnter={() =>
               setIsShown1(
-                "Stunning and intuitive websites tailored to your unique brand and audience."
+                "Stunning and intuitive websites tailored to your brand and audience."
               )
             }
             onMouseLeave={() => setIsShown1("")}
           >
-            {isShown1 && <div className="cards">{isShown1}</div>}
             <img className="tt22" src={img1}></img>
+            {isShown1 && <div className="cards">{isShown1}</div>}
           </div>
           <div
             className="services-boxes"
