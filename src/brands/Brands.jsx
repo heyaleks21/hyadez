@@ -17,13 +17,10 @@ const Brands = () => {
           <img className="imgs" src={img1} />
           <img className="imgs" src={img5} />
           <img className="imgs" src={img3} />
-          <img className="imgs" src={img7} />
-
-          <img className="imgs" src={img4} />
-
-          <img className="imgs" src={img6} />
-
           <img className="imgs" src={img2} />
+          <img className="imgs" src={img6} />
+          <img className="imgs" src={img7} />
+          <img className="imgs" src={img4} />
         </div>
       </div>
     </>
