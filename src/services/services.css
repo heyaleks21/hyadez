@@ -28,7 +28,7 @@
 .services-body img {
   max-width: 130px;
   max-height: 130px;
-  padding: 1em;
+  padding: 0.7em;
 }
 .services-boxes {
   color: var(--global-text-color);
