@@ -30,7 +30,7 @@
   background-size: 250%;
   background-repeat: no-repeat;
   animation-name: scale-in;
-  animation-duration: 2s;
+  animation-duration: 1s;
   height: 500px;
 }
 @keyframes scale-in {
