@@ -5,15 +5,12 @@ const About = () => {
     <>
       <div className="firstbox background-image">
         <div className="box2">
-          <div className="form-body">
-            <h1 className="skills-heading">
-              <img
-                className="about-logo"
-                src="/static/images/brand-logo.svg"
-              ></img>{" "}
-              Hyadez Web Development
-            </h1>
-
+          <div className="form-body about-body2">
+            <h1 className="skills-heading">Hyadez Web Development</h1>
+            <img
+              className="about-logo"
+              src="/static/images/brand-logo.svg"
+            ></img>
             <div className="form-contents pbox">
               <p className="heading-registration">
                 Based in Australia, Hyadez offers exceptional freelance software
