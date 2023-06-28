@@ -25,6 +25,10 @@
   padding-left: 1em;
   color: var(--global-text-color);
 }
+.services-body img {
+  max-width: 130px;
+  max-height: 130px;
+}
 .services-boxes {
   color: var(--global-text-color);
   display: flex;
@@ -38,17 +42,12 @@
   animation: bounceout;
   animation-duration: 0.7s;
 }
-.services-body img {
-  max-width: 130px;
-  max-height: 130px;
-}
 .services-boxes:hover,
 .services-boxes:focus {
   animation-name: bouncein;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
-
 @keyframes bouncein {
   from {
     transform: translateY(0);
@@ -65,13 +64,11 @@
     transform: translateY(0);
   }
 }
-
 .cards {
   text-align: center;
   max-width: 200px;
   max-height: 200px;
 }
-
 .services-background {
   background-color: var(--main-color3);
   border: 1px solid var(--main-color5);

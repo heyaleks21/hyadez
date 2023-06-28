@@ -12,10 +12,11 @@ function App() {
       <Navbar />
       <div className="undernavdiv"></div>
       <About />
-      <Brands />
+
       <Services />
       <Contact />
       <ImageSlider />
+      <Brands />
       <div className="footercontainer">
         <div className="brandnamefooter">© Hyadez</div>
       </div>
