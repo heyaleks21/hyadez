@@ -28,10 +28,12 @@
 .services-body img {
   max-width: 130px;
   max-height: 130px;
+  padding: 1em;
 }
 .services-boxes {
   color: var(--global-text-color);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -65,12 +67,12 @@
     transform: translateY(0);
   }
   to {
-    transform: translateY(-50px);
+    transform: translateY(-40px);
   }
 }
 @keyframes top-section-drop-down {
   from {
-    transform: translateY(-50px);
+    transform: translateY(-40px);
   }
   to {
     transform: translateY(0);
@@ -81,12 +83,12 @@
     transform: translateY(0);
   }
   to {
-    transform: translateY(50px);
+    transform: translateY(40px);
   }
 }
 @keyframes bot-section-drop-down {
   from {
-    transform: translateY(50px);
+    transform: translateY(40px);
   }
   to {
     transform: translateY(0);
