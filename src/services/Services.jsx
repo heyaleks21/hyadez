@@ -9,6 +9,7 @@ import img5 from "../assets/services/analytics.png";
 import img6 from "../assets/services/creative.png";
 import img7 from "../assets/services/social-media.png";
 import img8 from "../assets/services/photography.png";
+import img9 from "../assets/web.png";
 
 const Services = () => {
   const [isShown1, setIsShown1] = useState("");
@@ -23,7 +24,11 @@ const Services = () => {
   return (
     <>
       <div className="services services-background">
-        <h1 className="partners">Our Strategy</h1>
+        <div className="strategy-box">
+          <h1 className="partners">Our Strategy</h1>
+          <img className="click-logo" src={img9}></img>
+        </div>
+
         <div className="services-body">
           <div
             className="services-boxes s1"

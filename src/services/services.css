@@ -14,6 +14,17 @@
   color: var(--main-color2);
   padding-bottom: 1em;
 }
+.strategy-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.click-logo {
+  width: 40px;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  color: var(--global-text-color);
+}
 .services-boxes {
   color: var(--global-text-color);
 
