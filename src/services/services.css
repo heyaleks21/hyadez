@@ -4,7 +4,7 @@
 .services-body {
   display: flex;
   flex-wrap: wrap;
-  gap: 7px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   cursor: default;
