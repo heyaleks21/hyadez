@@ -12,27 +12,32 @@
 
 .services-boxes {
   color: var(--global-text-color);
-  background-color: var(--main-color5);
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border-radius: 5px;
-  border: 1px solid var(--main-color5);
+
   min-width: 215px;
   min-height: 215px;
   z-index: 0;
   transform-origin: bottom;
-  animation: bounceout, colorshiftout;
+  animation: bounceout;
   animation-duration: 0.7s;
+}
+
+.services-body img {
+  max-width: 150px;
+  max-height: 150px;
 }
 
 .services-boxes:hover,
 .services-boxes:focus {
-  animation-name: bouncein, colorshiftin;
+  animation-name: bouncein;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
+
 @keyframes bouncein {
   from {
     transform: translateY(0);
@@ -47,22 +52,6 @@
   }
   to {
     transform: translateY(0);
-  }
-}
-@keyframes colorshiftin {
-  0% {
-    background-color: var(--main-color5);
-  }
-  100% {
-    background-color: var(--spicy-color);
-  }
-}
-@keyframes colorshiftout {
-  from {
-    background-color: var(--spicy-color);
-  }
-  to {
-    background-color: var(--main-color5);
   }
 }
 
