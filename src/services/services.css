@@ -4,7 +4,7 @@
 .services-body {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 2px;
   justify-content: center;
   align-items: center;
   cursor: default;
@@ -28,7 +28,7 @@
 .services-body img {
   max-width: 130px;
   max-height: 130px;
-  padding: 0.7em;
+  padding: 4px;
 }
 .services-boxes {
   color: var(--global-text-color);

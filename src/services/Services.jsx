@@ -46,7 +46,7 @@ const Services = () => {
             className="services-boxes s1"
             onMouseEnter={() =>
               setIsShown2(
-                "Create a memorable brand identity that reflects your values and resonates with your target market."
+                "Memorable branding that reflects your values and captivates viewers."
               )
             }
             onMouseLeave={() => setIsShown2("")}
@@ -58,7 +58,7 @@ const Services = () => {
             className="services-boxes s1"
             onMouseEnter={() =>
               setIsShown3(
-                "Reliable and secure hosting solutions to keep your website running smoothly and efficiently."
+                "Reliable and secure hosting solutions for desired efficiency and performance."
               )
             }
             onMouseLeave={() => setIsShown3("")}
@@ -70,7 +70,7 @@ const Services = () => {
             className="services-boxes s1"
             onMouseEnter={() =>
               setIsShown4(
-                "Boost your online visibility and drive organic traffic with proven search engine optimization strategies."
+                "Boost online visibility and drive organic traffic with search engine optimization."
               )
             }
             onMouseLeave={() => setIsShown4("")}
@@ -82,7 +82,7 @@ const Services = () => {
             className="services-boxes s2"
             onMouseEnter={() =>
               setIsShown5(
-                "Gain valuable insights into your website's performance and user behavior to make data-driven decisions."
+                "Make data driven decisions with valuable website and user behaviour analytics"
               )
             }
             onMouseLeave={() => setIsShown5("")}
@@ -94,7 +94,7 @@ const Services = () => {
             className="services-boxes s2"
             onMouseEnter={() =>
               setIsShown6(
-                "Engaging and compelling content that captivates your audience and drives conversions."
+                "Engaging content that captivates your audience and drives conversions."
               )
             }
             onMouseLeave={() => setIsShown6("")}
@@ -106,7 +106,7 @@ const Services = () => {
             className="services-boxes s2"
             onMouseEnter={() =>
               setIsShown7(
-                "Strategic digital marketing campaigns to amplify your online presence and reach your target customers."
+                "Strategic digital marketing campaigns that amplify your online presence."
               )
             }
             onMouseLeave={() => setIsShown7("")}
@@ -118,7 +118,7 @@ const Services = () => {
             className="services-boxes s2"
             onMouseEnter={() =>
               setIsShown8(
-                "High-quality visuals that showcase your products in the best light, enticing customers to make a purchase."
+                "High-quality and enticing visuals that highlight the excellence of your products."
               )
             }
             onMouseLeave={() => setIsShown8("")}
