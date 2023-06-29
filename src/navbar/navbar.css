@@ -29,7 +29,6 @@ a:visited {
   justify-content: center;
   position: fixed;
   background-color: var(--main-color3);
-  border: 1px solid var(--main-color5);
 }
 .brand-group-top {
   display: flex;
@@ -91,9 +90,8 @@ a:visited {
 }
 @media screen and (max-width: 1000px) {
   .nav_menu ul {
-    border: 1px solid var(--main-color5);
     position: absolute;
-    top: 71px;
+    top: 70px;
     border-radius: 5px;
     left: 0;
     flex-direction: column;

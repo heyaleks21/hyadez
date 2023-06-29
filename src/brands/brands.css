@@ -1,7 +1,6 @@
 .brands-background {
   background-color: var(--main-color1);
   padding: 1em 0;
-  border: 1px solid var(--main-color5);
 }
 .imgs {
   max-width: 30px;
