@@ -4,7 +4,6 @@
 .services-body {
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
   justify-content: center;
   align-items: center;
   cursor: default;
@@ -26,8 +25,8 @@
   color: var(--global-text-color);
 }
 .services-body img {
-  max-width: 130px;
-  max-height: 130px;
+  max-width: 90px;
+  max-height: 90px;
   padding: 4px;
 }
 .services-boxes {
@@ -37,8 +36,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-width: 215px;
-  min-height: 215px;
+  min-width: 200px;
+  min-height: 200px;
   z-index: 0;
   transform-origin: bottom;
 }
