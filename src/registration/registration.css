@@ -57,7 +57,6 @@
 }
 .form__input {
   text-align: center;
-  border: 1px solid var(--main-color5);
 }
 .btn {
   font-size: medium;
