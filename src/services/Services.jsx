@@ -45,30 +45,6 @@ const Services = () => {
           <div
             className="services-boxes s1"
             onMouseEnter={() =>
-              setIsShown2(
-                "Memorable branding that reflects your values and captivates viewers."
-              )
-            }
-            onMouseLeave={() => setIsShown2("")}
-          >
-            <img className="tt22" src={img2}></img>
-            {isShown2 && <div className="cards">{isShown2}</div>}
-          </div>
-          <div
-            className="services-boxes s1"
-            onMouseEnter={() =>
-              setIsShown3(
-                "Reliable and secure hosting solutions for desired efficiency and performance."
-              )
-            }
-            onMouseLeave={() => setIsShown3("")}
-          >
-            <img className="tt22" src={img3}></img>
-            {isShown3 && <div className="cards">{isShown3}</div>}
-          </div>
-          <div
-            className="services-boxes s1"
-            onMouseEnter={() =>
               setIsShown4(
                 "Boost online visibility and drive organic traffic with search engine optimization."
               )
@@ -125,6 +101,30 @@ const Services = () => {
           >
             <img className="tt22" src={img8}></img>
             {isShown8 && <div className="cards">{isShown8}</div>}
+          </div>
+          <div
+            className="services-boxes s1"
+            onMouseEnter={() =>
+              setIsShown3(
+                "Reliable and secure hosting solutions for desired efficiency and performance."
+              )
+            }
+            onMouseLeave={() => setIsShown3("")}
+          >
+            <img className="tt22" src={img3}></img>
+            {isShown3 && <div className="cards">{isShown3}</div>}
+          </div>
+          <div
+            className="services-boxes s1"
+            onMouseEnter={() =>
+              setIsShown2(
+                "Memorable branding that reflects your values and captivates viewers."
+              )
+            }
+            onMouseLeave={() => setIsShown2("")}
+          >
+            <img className="tt22" src={img2}></img>
+            {isShown2 && <div className="cards">{isShown2}</div>}
           </div>
         </div>
       </div>
