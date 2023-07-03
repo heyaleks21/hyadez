@@ -38,3 +38,9 @@ textarea {
 svg {
   color: var(--spicy-color);
 }
+.contactfooterindividuals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}

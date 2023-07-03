@@ -2,18 +2,19 @@
 /* Small Switch Palette, https://mycolor.space1, 60% / 30% / 10% */
 :root {
   --global-text-color: #d7dadc;
+  --main-color2: #d7dadc;
+
+  --spicy-color: #ff5329;
+  --spicy-color1: rgba(255, 84, 41, 0.548);
+
   --main-color1: #505050;
   --website-background: #292929;
-  --main-color2: #d7dadc;
   --main-color3: #1a1a1b;
+
   /* opacity */
   --main-color4: #252527;
   --main-color5: #aaaaaa4b;
   --main-color8: #383838;
-  --main-color9: #0099ff;
-
-  --spicy-color: #ff5329;
-  --spicy-color1: rgba(255, 84, 41, 0.548);
 }
 * {
   font-family: "Kanit", sans-serif;
