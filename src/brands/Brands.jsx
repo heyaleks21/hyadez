@@ -1,13 +1,12 @@
-import React from "react";
 import "./brands.css";
 
 import img1 from "../assets/brands/google.png";
-import img2 from "../assets/brands/css-3.png";
 import img3 from "../assets/brands/facebook.png";
 import img4 from "../assets/brands/java.png";
-import img5 from "../assets/brands/microsoft.png";
 import img6 from "../assets/brands/node.png";
 import img7 from "../assets/brands/social.png";
+import img2 from "../assets/brands/css-3.png";
+import img5 from "../assets/brands/microsoft.png";
 
 const Brands = () => {
   return (
