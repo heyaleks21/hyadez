@@ -39,7 +39,7 @@ const Contact = () => {
                   <FontAwesomeIcon icon={fa4} /> Our expert strategist presents
                   project estimates and approximate timelines.
                 </div>
-                <div className="contactindividuals">
+                <div className="contactindividuals contactfooterindividuals">
                   <FontAwesomeIcon icon={faSquarePhone} /> 0498 256 447
                 </div>
               </div>
