@@ -25,9 +25,9 @@
   color: var(--global-text-color);
 }
 .services-body img {
-  max-width: 90px;
-  max-height: 90px;
-  padding: 4px;
+  max-width: 70px;
+  max-height: 70px;
+  padding: 0.5em;
 }
 .services-boxes {
   color: var(--global-text-color);
@@ -36,8 +36,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 190px;
+  min-height: 190px;
   z-index: 0;
   transform-origin: bottom;
 }
@@ -95,8 +95,9 @@
 }
 .cards {
   text-align: center;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 180px;
+  max-height: 180px;
+  font-size: smaller;
 }
 .services-background {
   background-color: var(--main-color3);

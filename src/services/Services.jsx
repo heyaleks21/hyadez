@@ -28,7 +28,6 @@ const Services = () => {
           <h1 className="partners">Our Strategy</h1>
           <img className="click-logo" src={img9}></img>
         </div>
-
         <div className="services-body">
           <div
             className="services-boxes s1"
