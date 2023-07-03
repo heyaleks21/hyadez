@@ -100,5 +100,5 @@
   font-size: smaller;
 }
 .services-background {
-  background-color: var(--main-color3);
+  background: var(--main-color8);
 }
